@@ -1,3 +1,3 @@
 [submodule "src/FuzzyIR"]
 	path = src/FuzzyIR
-	url = git@github.com:niltonvasques/fuzzy-ir.git
+	url = https://github.com/niltonvasques/fuzzy-ir.git 

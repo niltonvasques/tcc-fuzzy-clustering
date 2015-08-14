@@ -1,0 +1,225 @@
+Zero Weights processed. Default weights will be used
+*
+optimization finished, #iter = 467
+nu = 0.5626506024096386
+obj = -1867.9994991633173, rho = -1.0000008138808947
+nSV = 934, nBSV = 934
+*
+optimization finished, #iter = 340
+nu = 0.4435746901500326
+obj = -1359.9998980045018, rho = -1.0000083325077054
+nSV = 680, nBSV = 680
+*
+optimization finished, #iter = 340
+nu = 0.8426270136307311
+obj = -1359.9996965594742, rho = -0.9999208290344246
+nSV = 680, nBSV = 680
+Total nSV = 1283
+*
+optimization finished, #iter = 420
+nu = 0.5622489959839357
+obj = -1679.9996270974877, rho = -0.999983987539344
+nSV = 840, nBSV = 840
+*
+optimization finished, #iter = 306
+nu = 0.4434782608695652
+obj = -1223.9999231806605, rho = -1.0000160312717479
+nSV = 612, nBSV = 612
+*
+optimization finished, #iter = 306
+nu = 0.8429752066115702
+obj = -1223.9998898802335, rho = -0.9999988377715496
+nSV = 612, nBSV = 612
+Total nSV = 1151
+*
+optimization finished, #iter = 420
+nu = 0.5622489959839357
+obj = -1679.9995433478286, rho = -1.0000089934417684
+nSV = 840, nBSV = 840
+*
+optimization finished, #iter = 306
+nu = 0.4434782608695652
+obj = -1223.999876063582, rho = -1.0000083325061944
+nSV = 612, nBSV = 612
+*
+optimization finished, #iter = 306
+nu = 0.8429752066115702
+obj = -1223.999700806867, rho = -0.9999208287772472
+nSV = 612, nBSV = 612
+Total nSV = 1152
+*
+optimization finished, #iter = 306
+nu = 0.4434782608695652
+obj = -1223.9998957341556, rho = -1.0000001529549891
+nSV = 612, nBSV = 612
+*
+optimization finished, #iter = 420
+nu = 0.5622489959839357
+obj = -1679.9996095008976, rho = -0.9999839875394081
+nSV = 840, nBSV = 840
+*
+optimization finished, #iter = 306
+nu = 0.8429752066115702
+obj = -1223.999922985421, rho = 1.0000013055272097
+nSV = 612, nBSV = 612
+Total nSV = 1156
+*
+optimization finished, #iter = 306
+nu = 0.4434782608695652
+obj = -1223.9999083265304, rho = -1.000008179551789
+nSV = 612, nBSV = 612
+*
+optimization finished, #iter = 420
+nu = 0.5622489959839357
+obj = -1679.999521160076, rho = -1.000000660997434
+nSV = 840, nBSV = 840
+*
+optimization finished, #iter = 306
+nu = 0.8429752066115702
+obj = -1223.9998901233275, rho = 1.0000013069467701
+nSV = 612, nBSV = 612
+Total nSV = 1152
+*
+optimization finished, #iter = 306
+nu = 0.4434782608695652
+obj = -1223.9998806255192, rho = -0.9999999999976963
+nSV = 612, nBSV = 612
+*
+optimization finished, #iter = 420
+nu = 0.5622489959839357
+obj = -1679.9995692264151, rho = -0.9999839877108945
+nSV = 840, nBSV = 840
+*
+optimization finished, #iter = 306
+nu = 0.8429752066115702
+obj = -1223.9998877477058, rho = 1.0000013158745205
+nSV = 612, nBSV = 612
+Total nSV = 1159
+*
+optimization finished, #iter = 420
+nu = 0.5622489959839357
+obj = -1679.9996074570217, rho = -0.9999839875389608
+nSV = 840, nBSV = 840
+*
+optimization finished, #iter = 306
+nu = 0.4434782608695652
+obj = -1223.9999163467019, rho = -0.9999931912289457
+nSV = 612, nBSV = 612
+*
+optimization finished, #iter = 306
+nu = 0.8429752066115702
+obj = -1223.9998542370352, rho = -0.9999848163788154
+nSV = 612, nBSV = 612
+Total nSV = 1154
+*
+optimization finished, #iter = 306
+nu = 0.4434782608695652
+obj = -1223.9998809132805, rho = -0.9999998470444986
+nSV = 612, nBSV = 612
+*
+optimization finished, #iter = 420
+nu = 0.5622489959839357
+obj = -1679.9995235611773, rho = -1.0000006610293055
+nSV = 840, nBSV = 840
+*
+optimization finished, #iter = 306
+nu = 0.8429752066115702
+obj = -1223.9999301891291, rho = 1.0000013056007329
+nSV = 612, nBSV = 612
+Total nSV = 1152
+*
+optimization finished, #iter = 306
+nu = 0.8418156808803301
+obj = -1223.9996946908743, rho = -0.9999201055979776
+nSV = 612, nBSV = 612
+*
+optimization finished, #iter = 421
+nu = 0.5635876840696118
+obj = -1683.999605110487, rho = 1.0000000599611094
+nSV = 842, nBSV = 842
+*
+optimization finished, #iter = 306
+nu = 0.4437998549673677
+obj = -1223.9999606310575, rho = 1.0000000064556973
+nSV = 612, nBSV = 612
+Total nSV = 1161
+*
+optimization finished, #iter = 421
+nu = 0.5635876840696118
+obj = -1683.9998551083333, rho = 1.0000000360638892
+nSV = 842, nBSV = 842
+*
+optimization finished, #iter = 306
+nu = 0.8418156808803301
+obj = -1223.9998815950228, rho = -0.9999839874655759
+nSV = 612, nBSV = 612
+*
+optimization finished, #iter = 306
+nu = 0.4437998549673677
+obj = -1223.9999515174782, rho = -1.000008332508426
+nSV = 612, nBSV = 612
+Total nSV = 1257
+*
+optimization finished, #iter = 421
+nu = 0.5635876840696118
+obj = -1683.9995813493529, rho = -0.9999839875390243
+nSV = 842, nBSV = 842
+*
+optimization finished, #iter = 306
+nu = 0.4437998549673677
+obj = -1223.9999116935965, rho = -1.000008332507634
+nSV = 612, nBSV = 612
+*
+optimization finished, #iter = 306
+nu = 0.8418156808803301
+obj = -1223.9996946555914, rho = -0.999920116205687
+nSV = 612, nBSV = 612
+Total nSV = 1153
+
+Options: -S 0 -K 1 -D 3 -G 0.0 -R 0.0 -N 0.5 -M 40.0 -C 2.0 -E 0.001 -P 0.1 -seed 1 
+
+LibSVM wrapper, original code by Yasser EL-Manzalawy (= WLSVM)
+
+Time taken to build model: 1.91 seconds
+Time taken to test model on training data: 0.91 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances        1193               59.65   %
+Incorrectly Classified Instances       807               40.35   %
+Kappa statistic                          0     
+Mean absolute error                      0.269 
+Root mean squared error                  0.5187
+Relative absolute error                 71.9349 %
+Root relative squared error            119.9626 %
+Total Number of Instances             2000     
+
+
+=== Confusion Matrix ===
+
+    a    b    c   <-- classified as
+ 1193    0    0 |    a = cluster_12
+  340    0    0 |    b = cluster_13
+  467    0    0 |    c = cluster_11
+
+
+
+=== Stratified cross-validation ===
+
+Correctly Classified Instances        1193               59.65   %
+Incorrectly Classified Instances       807               40.35   %
+Kappa statistic                          0     
+Mean absolute error                      0.269 
+Root mean squared error                  0.5187
+Relative absolute error                 71.9325 %
+Root relative squared error            119.9624 %
+Total Number of Instances             2000     
+
+
+=== Confusion Matrix ===
+
+    a    b    c   <-- classified as
+ 1193    0    0 |    a = cluster_12
+  340    0    0 |    b = cluster_13
+  467    0    0 |    c = cluster_11
+

@@ -1,0 +1,113 @@
+Zero Weights processed. Default weights will be used
+*
+optimization finished, #iter = 244
+nu = 0.1525
+obj = -975.9998398746538, rho = -0.9999839874653844
+nSV = 488, nBSV = 488
+Total nSV = 488
+*
+optimization finished, #iter = 220
+nu = 0.1527777777777778
+obj = -879.999967826225, rho = -0.9999999256470815
+nSV = 440, nBSV = 440
+Total nSV = 440
+*
+optimization finished, #iter = 220
+nu = 0.1527777777777778
+obj = -879.9998344834659, rho = -0.9999839874653844
+nSV = 440, nBSV = 440
+Total nSV = 440
+*
+optimization finished, #iter = 220
+nu = 0.1527777777777778
+obj = -879.9997427316075, rho = -0.9999839874653844
+nSV = 440, nBSV = 440
+Total nSV = 440
+*
+optimization finished, #iter = 220
+nu = 0.1527777777777778
+obj = -879.9999341540632, rho = -0.9999839874653844
+nSV = 440, nBSV = 440
+Total nSV = 440
+*
+optimization finished, #iter = 220
+nu = 0.1527777777777778
+obj = -879.9998391176757, rho = -0.9999839874653844
+nSV = 440, nBSV = 440
+Total nSV = 440
+*
+optimization finished, #iter = 220
+nu = 0.1527777777777778
+obj = -879.9998718997231, rho = 1.0
+nSV = 440, nBSV = 440
+Total nSV = 440
+*
+optimization finished, #iter = 219
+nu = 0.15208333333333332
+obj = -875.999834900565, rho = -0.9999839874653844
+nSV = 438, nBSV = 438
+Total nSV = 438
+*
+optimization finished, #iter = 219
+nu = 0.15208333333333332
+obj = -875.9998718997231, rho = 1.0
+nSV = 438, nBSV = 438
+Total nSV = 438
+*
+optimization finished, #iter = 219
+nu = 0.15208333333333332
+obj = -875.9997993247772, rho = -0.9999839874653844
+nSV = 438, nBSV = 438
+Total nSV = 438
+*
+optimization finished, #iter = 219
+nu = 0.15208333333333332
+obj = -875.9998060537862, rho = -0.9999839874653844
+nSV = 438, nBSV = 438
+Total nSV = 438
+
+Options: -S 0 -K 1 -D 3 -G 0.0 -R 0.0 -N 0.5 -M 40.0 -C 2.0 -E 0.001 -P 0.1 -seed 1 
+
+LibSVM wrapper, original code by Yasser EL-Manzalawy (= WLSVM)
+
+Time taken to build model: 1.12 seconds
+Time taken to test model on training data: 0.88 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances        2956               92.375  %
+Incorrectly Classified Instances       244                7.625  %
+Kappa statistic                          0     
+Mean absolute error                      0.0763
+Root mean squared error                  0.2761
+Relative absolute error                 54.0411 %
+Root relative squared error            104.0453 %
+Total Number of Instances             3200     
+
+
+=== Confusion Matrix ===
+
+    a    b   <-- classified as
+ 2956    0 |    a = cluster_6
+  244    0 |    b = cluster_5
+
+
+
+=== Stratified cross-validation ===
+
+Correctly Classified Instances        2956               92.375  %
+Incorrectly Classified Instances       244                7.625  %
+Kappa statistic                          0     
+Mean absolute error                      0.0763
+Root mean squared error                  0.2761
+Relative absolute error                 54.0314 %
+Root relative squared error            104.0449 %
+Total Number of Instances             3200     
+
+
+=== Confusion Matrix ===
+
+    a    b   <-- classified as
+ 2956    0 |    a = cluster_6
+  244    0 |    b = cluster_5
+

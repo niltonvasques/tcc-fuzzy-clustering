@@ -1,0 +1,113 @@
+Zero Weights processed. Default weights will be used
+*
+optimization finished, #iter = 670
+nu = 0.8589743589743589
+obj = -2679.999618202923, rho = -0.9999796207835532
+nSV = 1340, nBSV = 1340
+Total nSV = 1340
+*
+optimization finished, #iter = 603
+nu = 0.8589743589743589
+obj = -2411.9996154109863, rho = -0.999982221743541
+nSV = 1206, nBSV = 1206
+Total nSV = 1206
+*
+optimization finished, #iter = 603
+nu = 0.8589743589743589
+obj = -2411.999657920767, rho = -0.9999796207835532
+nSV = 1206, nBSV = 1206
+Total nSV = 1206
+*
+optimization finished, #iter = 603
+nu = 0.8589743589743589
+obj = -2411.9996033383363, rho = -0.999979314767563
+nSV = 1206, nBSV = 1206
+Total nSV = 1206
+*
+optimization finished, #iter = 603
+nu = 0.8589743589743589
+obj = -2411.9996514328723, rho = -0.999982221743541
+nSV = 1206, nBSV = 1206
+Total nSV = 1206
+*
+optimization finished, #iter = 603
+nu = 0.8589743589743589
+obj = -2411.9996277247833, rho = -0.9999894483304159
+nSV = 1206, nBSV = 1206
+Total nSV = 1206
+*
+optimization finished, #iter = 603
+nu = 0.8589743589743589
+obj = -2411.999734089064, rho = -0.9999894478092186
+nSV = 1206, nBSV = 1206
+Total nSV = 1206
+*
+optimization finished, #iter = 603
+nu = 0.8589743589743589
+obj = -2411.999623575687, rho = -0.9999894488516133
+nSV = 1206, nBSV = 1206
+Total nSV = 1206
+*
+optimization finished, #iter = 603
+nu = 0.8589743589743589
+obj = -2411.9995971597223, rho = -0.9999793173735498
+nSV = 1206, nBSV = 1206
+Total nSV = 1206
+*
+optimization finished, #iter = 603
+nu = 0.8589743589743589
+obj = -2411.99969843979, rho = -0.999979634604955
+nSV = 1206, nBSV = 1206
+Total nSV = 1206
+*
+optimization finished, #iter = 603
+nu = 0.8589743589743589
+obj = -2411.999676298962, rho = -0.999982221743541
+nSV = 1206, nBSV = 1206
+Total nSV = 1206
+
+Options: -S 0 -K 1 -D 3 -G 0.0 -R 0.0 -N 0.5 -M 40.0 -C 2.0 -E 0.001 -P 0.1 -seed 1 
+
+LibSVM wrapper, original code by Yasser EL-Manzalawy (= WLSVM)
+
+Time taken to build model: 0.86 seconds
+Time taken to test model on training data: 0.66 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances         890               57.0513 %
+Incorrectly Classified Instances       670               42.9487 %
+Kappa statistic                          0     
+Mean absolute error                      0.4295
+Root mean squared error                  0.6554
+Relative absolute error                 87.6382 %
+Root relative squared error            132.3937 %
+Total Number of Instances             1560     
+
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 890   0 |   a = cluster_2
+ 670   0 |   b = cluster_1
+
+
+
+=== Stratified cross-validation ===
+
+Correctly Classified Instances         890               57.0513 %
+Incorrectly Classified Instances       670               42.9487 %
+Kappa statistic                          0     
+Mean absolute error                      0.4295
+Root mean squared error                  0.6554
+Relative absolute error                 87.6379 %
+Root relative squared error            132.3937 %
+Total Number of Instances             1560     
+
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 890   0 |   a = cluster_2
+ 670   0 |   b = cluster_1
+

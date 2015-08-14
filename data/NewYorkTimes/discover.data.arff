@@ -1,0 +1,33 @@
+@RELATION ../../data/NewYorkTimes/discover.data
+
+@ATTRIBUTE dilapidated	NUMERIC
+@ATTRIBUTE thousands_migrants	NUMERIC
+@ATTRIBUTE colonel_qaddafi	NUMERIC
+@ATTRIBUTE turned	NUMERIC
+@ATTRIBUTE economic_malaise	NUMERIC
+@ATTRIBUTE remain_globally	NUMERIC
+@ATTRIBUTE mathematics	NUMERIC
+@ATTRIBUTE foreseeable	NUMERIC
+@ATTRIBUTE skilling_population	NUMERIC
+@ATTRIBUTE high_speed	NUMERIC
+@ATTRIBUTE class 	{cluster_2,cluster_1,cluster_3}
+
+@DATA
+0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,1.0,cluster_2
+0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,cluster_3
+0.0,0.71,0.71,0.0,0.0,0.0,0.0,0.0,0.0,0.0,cluster_1
+0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,cluster_3
+0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,cluster_3
+0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,cluster_3
+1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,cluster_3
+0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,cluster_3
+0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,cluster_3
+0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,cluster_3
+0.0,0.71,0.71,0.0,0.0,0.0,0.0,0.0,0.0,0.0,cluster_1
+0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,cluster_3
+0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,cluster_3
+0.0,0.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,cluster_3
+0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,cluster_3
+0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,cluster_3
+0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,cluster_3
+0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,cluster_3

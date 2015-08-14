@@ -1,0 +1,61 @@
+
+Options: -C 0.25 -M 2 
+
+J48 pruned tree
+------------------
+
+chemic <= 0: cluster_2 (1011.0/223.0)
+chemic > 0
+|   chemic <= 0.12
+|   |   philippin <= 0
+|   |   |   quot <= 0: cluster_1 (25.0/9.0)
+|   |   |   quot > 0: cluster_2 (9.0/1.0)
+|   |   philippin > 0: cluster_1 (2.0)
+|   chemic > 0.12: cluster_2 (5.0)
+
+Number of Leaves  : 	5
+
+Size of the tree : 	9
+
+
+Time taken to build model: 0.41 seconds
+Time taken to test model on training data: 0.08 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances         819               77.8517 %
+Incorrectly Classified Instances       233               22.1483 %
+Kappa statistic                          0.0919
+Mean absolute error                      0.3431
+Root mean squared error                  0.4142
+Relative absolute error                 96.7742 %
+Root relative squared error             98.4122 %
+Total Number of Instances             1052     
+
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 801   9 |   a = cluster_2
+ 224  18 |   b = cluster_1
+
+
+
+=== Stratified cross-validation ===
+
+Correctly Classified Instances         815               77.4715 %
+Incorrectly Classified Instances       237               22.5285 %
+Kappa statistic                          0.0802
+Mean absolute error                      0.3463
+Root mean squared error                  0.4177
+Relative absolute error                 97.6861 %
+Root relative squared error             99.243  %
+Total Number of Instances             1052     
+
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 798  12 |   a = cluster_2
+ 225  17 |   b = cluster_1
+

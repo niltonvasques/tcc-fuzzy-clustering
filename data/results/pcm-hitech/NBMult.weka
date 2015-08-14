@@ -1,0 +1,72 @@
+
+The independent probability of a class
+--------------------------------------
+cluster_7	0.3920265780730897
+cluster_8	0.6079734219269103
+
+The probability of a word given the class
+-----------------------------------------
+	cluster_7	cluster_8	
+roulett	0.039826839826839835	0.04831027443864821	
+collar	0.07388167388167385	0.06396008165116804	
+supervisor	0.042135642135642144	0.06963030165570423	
+map	0.043290043290043295	0.05670220004536175	
+passeng	0.03722943722943724	0.05556815604445451	
+squeez	0.08369408369408367	0.022680880018144698	
+houghton	0.06551226551226552	0.024041732819233386	
+bakersfield	0.028860028860028857	0.054887729643910164	
+tanker	0.04069264069264069	0.05057836244046268	
+hidalgo	0.0455988455988456	0.04899070083919257	
+berg	0.054834054834054825	0.05330006804264004	
+condron	0.06984126984126986	0.022680880018144698	
+huse	0.06984126984126986	0.022680880018144698	
+kushner	0.049350649350649346	0.03878430483102743	
+boon	0.04444444444444445	0.08369244726695396	
+naturalist	0.028860028860028857	0.054887729643910164	
+philippin	0.049350649350649346	0.03878430483102743	
+reaction	0.0461760461760462	0.07598094806078476	
+taylor	0.040981240981241	0.06486731685189388	
+parriott	0.0455988455988456	0.04899070083919257	
+
+
+Time taken to build model: 0.07 seconds
+Time taken to test model on training data: 0.06 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances         374               62.3333 %
+Incorrectly Classified Instances       226               37.6667 %
+Kappa statistic                          0.0462
+Mean absolute error                      0.4713
+Root mean squared error                  0.4835
+Relative absolute error                 98.882  %
+Root relative squared error             99.058  %
+Total Number of Instances              600     
+
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+   9 226 |   a = cluster_7
+   0 365 |   b = cluster_8
+
+
+
+=== Stratified cross-validation ===
+
+Correctly Classified Instances         369               61.5    %
+Incorrectly Classified Instances       231               38.5    %
+Kappa statistic                          0.0242
+Mean absolute error                      0.4749
+Root mean squared error                  0.4868
+Relative absolute error                 99.6403 %
+Root relative squared error             99.7261 %
+Total Number of Instances              600     
+
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+   6 229 |   a = cluster_7
+   2 363 |   b = cluster_8
+

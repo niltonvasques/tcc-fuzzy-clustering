@@ -1,0 +1,176 @@
+
+Naive Bayes Classifier
+
+                   Class
+Attribute      cluster_2 cluster_1
+                  (0.57)    (0.43)
+===================================
+buzz
+  mean              0.002    0.0009
+  std. dev.        0.0483    0.0483
+  weight sum          890       670
+  precision          0.29      0.29
+
+subscrib
+  mean             0.0009    0.0034
+  std. dev.        0.0642    0.0642
+  weight sum          890       670
+  precision         0.385     0.385
+
+map
+  mean             0.0017    0.0006
+  std. dev.        0.0633    0.0633
+  weight sum          890       670
+  precision          0.38      0.38
+
+passeng
+  mean             0.0019         0
+  std. dev.        0.0558    0.0558
+  weight sum          890       670
+  precision         0.335     0.335
+
+feast
+  mean                  0    0.0012
+  std. dev.        0.0667    0.0667
+  weight sum          890       670
+  precision           0.4       0.4
+
+follet
+  mean             0.0019    0.0029
+  std. dev.        0.0408    0.0408
+  weight sum          890       670
+  precision         0.245     0.245
+
+mirag
+  mean             0.0024    0.0038
+  std. dev.         0.035     0.035
+  weight sum          890       670
+  precision          0.21      0.21
+
+squeez
+  mean             0.0033    0.0044
+  std. dev.        0.0232    0.0273
+  weight sum          890       670
+  precision        0.1133    0.1133
+
+idyll
+  mean             0.0035    0.0042
+  std. dev.         0.025    0.0247
+  weight sum          890       670
+  precision         0.135     0.135
+
+shrine
+  mean             0.0016    0.0008
+  std. dev.        0.0467    0.0467
+  weight sum          890       670
+  precision          0.28      0.28
+
+lineman
+  mean             0.0013    0.0009
+  std. dev.        0.0967    0.0967
+  weight sum          890       670
+  precision          0.58      0.58
+
+valeri
+  mean             0.0011    0.0015
+  std. dev.        0.0833    0.0833
+  weight sum          890       670
+  precision           0.5       0.5
+
+berg
+  mean             0.0003    0.0012
+  std. dev.         0.045     0.045
+  weight sum          890       670
+  precision          0.27      0.27
+
+boon
+  mean             0.0015    0.0017
+  std. dev.        0.0322    0.0322
+  weight sum          890       670
+  precision        0.1933    0.1933
+
+chemic
+  mean             0.0028    0.0031
+  std. dev.        0.0317    0.0317
+  weight sum          890       670
+  precision          0.19      0.19
+
+novelist
+  mean                  0    0.0026
+  std. dev.        0.0967    0.0967
+  weight sum          890       670
+  precision          0.58      0.58
+
+lewi
+  mean             0.0019         0
+  std. dev.        0.0567    0.0567
+  weight sum          890       670
+  precision          0.34      0.34
+
+satur
+  mean             0.0004    0.0026
+  std. dev.        0.0592    0.0592
+  weight sum          890       670
+  precision         0.355     0.355
+
+reaction
+  mean             0.0018    0.0012
+  std. dev.        0.0683    0.0683
+  weight sum          890       670
+  precision          0.41      0.41
+
+seoul
+  mean             0.0015    0.0028
+  std. dev.        0.0317    0.0317
+  weight sum          890       670
+  precision          0.19      0.19
+
+taylor
+  mean             0.0022         0
+  std. dev.        0.0833    0.0833
+  weight sum          890       670
+  precision           0.5       0.5
+
+
+
+Time taken to build model: 0.28 seconds
+Time taken to test model on training data: 0.39 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances         889               56.9872 %
+Incorrectly Classified Instances       671               43.0128 %
+Kappa statistic                          0.0067
+Mean absolute error                      0.4886
+Root mean squared error                  0.496 
+Relative absolute error                 99.7    %
+Root relative squared error            100.2041 %
+Total Number of Instances             1560     
+
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 870  20 |   a = cluster_2
+ 651  19 |   b = cluster_1
+
+
+
+=== Stratified cross-validation ===
+
+Correctly Classified Instances         885               56.7308 %
+Incorrectly Classified Instances       675               43.2692 %
+Kappa statistic                          0.0041
+Mean absolute error                      0.4919
+Root mean squared error                  0.5003
+Relative absolute error                100.3667 %
+Root relative squared error            101.0717 %
+Total Number of Instances             1560     
+
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 860  30 |   a = cluster_2
+ 645  25 |   b = cluster_1
+

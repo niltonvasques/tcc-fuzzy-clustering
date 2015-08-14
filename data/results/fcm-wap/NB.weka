@@ -1,0 +1,178 @@
+
+Naive Bayes Classifier
+
+                    Class
+Attribute      cluster_21 cluster_20 cluster_22
+                    (0.3)     (0.29)     (0.41)
+================================================
+buzz
+  mean                   0     0.0013     0.0027
+  std. dev.         0.0483     0.0483     0.0483
+  weight sum           470        457        633
+  precision           0.29       0.29       0.29
+
+subscrib
+  mean              0.0016     0.0034     0.0012
+  std. dev.         0.0642     0.0642     0.0642
+  weight sum           470        457        633
+  precision          0.385      0.385      0.385
+
+map
+  mean              0.0024     0.0008     0.0006
+  std. dev.         0.0633     0.0633     0.0633
+  weight sum           470        457        633
+  precision           0.38       0.38       0.38
+
+passeng
+  mean                   0     0.0029     0.0005
+  std. dev.         0.0558     0.0558     0.0558
+  weight sum           470        457        633
+  precision          0.335      0.335      0.335
+
+feast
+  mean              0.0017          0          0
+  std. dev.         0.0667     0.0667     0.0667
+  weight sum           470        457        633
+  precision            0.4        0.4        0.4
+
+follet
+  mean              0.0016     0.0016     0.0035
+  std. dev.         0.0408     0.0408     0.0408
+  weight sum           470        457        633
+  precision          0.245      0.245      0.245
+
+mirag
+  mean               0.004     0.0028     0.0023
+  std. dev.          0.035      0.035      0.035
+  weight sum           470        457        633
+  precision           0.21       0.21       0.21
+
+squeez
+  mean              0.0019     0.0077     0.0023
+  std. dev.         0.0195     0.0363     0.0189
+  weight sum           470        457        633
+  precision         0.1133     0.1133     0.1133
+
+idyll
+  mean              0.0034     0.0044     0.0036
+  std. dev.          0.023     0.0257     0.0255
+  weight sum           470        457        633
+  precision          0.135      0.135      0.135
+
+shrine
+  mean              0.0018     0.0012     0.0009
+  std. dev.         0.0467     0.0467     0.0467
+  weight sum           470        457        633
+  precision           0.28       0.28       0.28
+
+lineman
+  mean                   0          0     0.0027
+  std. dev.         0.0967     0.0967     0.0967
+  weight sum           470        457        633
+  precision           0.58       0.58       0.58
+
+valeri
+  mean              0.0011     0.0011     0.0016
+  std. dev.         0.0833     0.0833     0.0833
+  weight sum           470        457        633
+  precision            0.5        0.5        0.5
+
+berg
+  mean              0.0017          0     0.0004
+  std. dev.          0.045      0.045      0.045
+  weight sum           470        457        633
+  precision           0.27       0.27       0.27
+
+boon
+  mean                   0     0.0013     0.0031
+  std. dev.         0.0322     0.0322     0.0359
+  weight sum           470        457        633
+  precision         0.1933     0.1933     0.1933
+
+chemic
+  mean               0.002     0.0033     0.0033
+  std. dev.         0.0317     0.0317     0.0317
+  weight sum           470        457        633
+  precision           0.19       0.19       0.19
+
+novelist
+  mean              0.0025          0     0.0009
+  std. dev.         0.0967     0.0967     0.0967
+  weight sum           470        457        633
+  precision           0.58       0.58       0.58
+
+lewi
+  mean                   0          0     0.0027
+  std. dev.         0.0567     0.0567     0.0567
+  weight sum           470        457        633
+  precision           0.34       0.34       0.34
+
+satur
+  mean                   0     0.0016     0.0022
+  std. dev.         0.0592     0.0592     0.0592
+  weight sum           470        457        633
+  precision          0.355      0.355      0.355
+
+reaction
+  mean              0.0017     0.0018     0.0013
+  std. dev.         0.0683     0.0683     0.0683
+  weight sum           470        457        633
+  precision           0.41       0.41       0.41
+
+seoul
+  mean              0.0016     0.0012      0.003
+  std. dev.         0.0317     0.0317     0.0317
+  weight sum           470        457        633
+  precision           0.19       0.19       0.19
+
+taylor
+  mean                   0          0     0.0032
+  std. dev.         0.0833     0.0833     0.0833
+  weight sum           470        457        633
+  precision            0.5        0.5        0.5
+
+
+
+Time taken to build model: 0.26 seconds
+Time taken to test model on training data: 0.47 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances         642               41.1538 %
+Incorrectly Classified Instances       918               58.8462 %
+Kappa statistic                          0.0152
+Mean absolute error                      0.433 
+Root mean squared error                  0.4701
+Relative absolute error                 98.5885 %
+Root relative squared error            100.3224 %
+Total Number of Instances             1560     
+
+
+=== Confusion Matrix ===
+
+   a   b   c   <-- classified as
+   0   7 463 |   a = cluster_21
+   0  24 433 |   b = cluster_20
+   0  15 618 |   c = cluster_22
+
+
+
+=== Stratified cross-validation ===
+
+Correctly Classified Instances         639               40.9615 %
+Incorrectly Classified Instances       921               59.0385 %
+Kappa statistic                          0.0128
+Mean absolute error                      0.4356
+Root mean squared error                  0.4732
+Relative absolute error                 99.1916 %
+Root relative squared error            100.9708 %
+Total Number of Instances             1560     
+
+
+=== Confusion Matrix ===
+
+   a   b   c   <-- classified as
+   0   9 461 |   a = cluster_21
+   2  24 431 |   b = cluster_20
+   3  15 615 |   c = cluster_22
+

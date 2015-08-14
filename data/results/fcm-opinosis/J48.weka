@@ -1,0 +1,65 @@
+
+Options: -C 0.25 -M 2 
+
+J48 pruned tree
+------------------
+
+price_due_excel_locat <= 0
+|   verizon_broadband <= 0
+|   |   floor_level_servic_provid <= 0
+|   |   |   full_price <= 0
+|   |   |   |   standard_room <= 0: cluster_13 (38.0/19.0)
+|   |   |   |   standard_room > 0: cluster_11 (4.0)
+|   |   |   full_price > 0: cluster_11 (3.0)
+|   |   floor_level_servic_provid > 0: cluster_11 (2.0)
+|   verizon_broadband > 0: cluster_12 (2.0)
+price_due_excel_locat > 0: cluster_12 (2.0)
+
+Number of Leaves  : 	6
+
+Size of the tree : 	11
+
+
+Time taken to build model: 0.19 seconds
+Time taken to test model on training data: 0.06 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances          32               62.7451 %
+Incorrectly Classified Instances        19               37.2549 %
+Kappa statistic                          0.4131
+Mean absolute error                      0.3089
+Root mean squared error                  0.393 
+Relative absolute error                 70.9736 %
+Root relative squared error             84.2953 %
+Total Number of Instances               51     
+
+
+=== Confusion Matrix ===
+
+  a  b  c   <-- classified as
+ 19  0  0 |  a = cluster_13
+  8  4  0 |  b = cluster_12
+ 11  0  9 |  c = cluster_11
+
+
+
+=== Stratified cross-validation ===
+
+Correctly Classified Instances          21               41.1765 %
+Incorrectly Classified Instances        30               58.8235 %
+Kappa statistic                          0.0648
+Mean absolute error                      0.4132
+Root mean squared error                  0.4677
+Relative absolute error                 94.7822 %
+Root relative squared error            100.1686 %
+Total Number of Instances               51     
+
+
+=== Confusion Matrix ===
+
+  a  b  c   <-- classified as
+ 18  1  0 |  a = cluster_13
+ 12  0  0 |  b = cluster_12
+ 17  0  3 |  c = cluster_11
+

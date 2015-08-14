@@ -1,0 +1,75 @@
+
+The independent probability of a class
+--------------------------------------
+cluster_16	0.781042654028436
+cluster_15	0.21800947867298578
+cluster_14	9.478672985781991E-4
+
+The probability of a word given the class
+-----------------------------------------
+	cluster_16	cluster_15	cluster_14	
+fight	0.06529884032114189	0.021677866897897254	0.05000000000000001	
+expiri	0.03818019625334526	0.05462822458270106	0.05000000000000001	
+regi	0.04174843889384482	0.021677866897897254	0.05000000000000001	
+tough	0.03925066904549514	0.05419466724474314	0.05000000000000001	
+platinum	0.033898305084745804	0.034684587036635614	0.05000000000000001	
+readi	0.07850133809099029	0.04769130717537394	0.05000000000000001	
+dunkirk	0.01784121320249779	0.05939735530023849	0.05000000000000001	
+pineappl	0.033898305084745804	0.05094298721005855	0.05000000000000001	
+quot	0.11971454058876026	0.054628224582701106	0.05000000000000001	
+armco	0.02372881355932206	0.07890743550834603	0.05000000000000001	
+chemic	0.08206958073148986	0.07110340342510302	0.05000000000000001	
+broken	0.07796610169491536	0.05961413396921745	0.05000000000000001	
+philippin	0.08760035682426418	0.04595707782354217	0.05000000000000001	
+satur	0.05887600356824269	0.056579232603511824	0.05000000000000001	
+extru	0.03371989295272081	0.03143290700195101	0.05000000000000001	
+reaction	0.05066904549509373	0.07305441144591374	0.05000000000000001	
+seoul	0.032471008028545974	0.05722956861044874	0.05000000000000001	
+disgruntl	0.048884924174843955	0.021677866897897254	0.05000000000000001	
+miam	0.01784121320249779	0.05246043789291135	0.05000000000000001	
+vacuum	0.01784121320249779	0.05246043789291135	0.05000000000000001	
+
+
+Time taken to build model: 0.06 seconds
+Time taken to test model on training data: 0.09 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances         825               78.4221 %
+Incorrectly Classified Instances       227               21.5779 %
+Kappa statistic                          0.0136
+Mean absolute error                      0.2253
+Root mean squared error                  0.334 
+Relative absolute error                 98.9624 %
+Root relative squared error             99.1214 %
+Total Number of Instances             1052     
+
+
+=== Confusion Matrix ===
+
+   a   b   c   <-- classified as
+ 823   0   0 |   a = cluster_16
+ 227   2   0 |   b = cluster_15
+   0   0   0 |   c = cluster_14
+
+
+
+=== Stratified cross-validation ===
+
+Correctly Classified Instances         823               78.2319 %
+Incorrectly Classified Instances       229               21.7681 %
+Kappa statistic                          0     
+Mean absolute error                      0.2263
+Root mean squared error                  0.3352
+Relative absolute error                 99.3654 %
+Root relative squared error             99.4749 %
+Total Number of Instances             1052     
+
+
+=== Confusion Matrix ===
+
+   a   b   c   <-- classified as
+ 823   0   0 |   a = cluster_16
+ 229   0   0 |   b = cluster_15
+   0   0   0 |   c = cluster_14
+

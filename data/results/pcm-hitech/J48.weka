@@ -1,0 +1,53 @@
+
+Options: -C 0.25 -M 2 
+
+J48 pruned tree
+------------------
+: cluster_8 (600.0/235.0)
+
+Number of Leaves  : 	1
+
+Size of the tree : 	1
+
+
+Time taken to build model: 0.16 seconds
+Time taken to test model on training data: 0.06 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances         365               60.8333 %
+Incorrectly Classified Instances       235               39.1667 %
+Kappa statistic                          0     
+Mean absolute error                      0.4765
+Root mean squared error                  0.4881
+Relative absolute error                 99.9836 %
+Root relative squared error            100      %
+Total Number of Instances              600     
+
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+   0 235 |   a = cluster_7
+   0 365 |   b = cluster_8
+
+
+
+=== Stratified cross-validation ===
+
+Correctly Classified Instances         365               60.8333 %
+Incorrectly Classified Instances       235               39.1667 %
+Kappa statistic                          0     
+Mean absolute error                      0.4765
+Root mean squared error                  0.4881
+Relative absolute error                 99.9818 %
+Root relative squared error            100      %
+Total Number of Instances              600     
+
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+   0 235 |   a = cluster_7
+   0 365 |   b = cluster_8
+

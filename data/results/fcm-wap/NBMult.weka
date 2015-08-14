@@ -1,0 +1,76 @@
+
+The independent probability of a class
+--------------------------------------
+cluster_21	0.30134357005758156
+cluster_20	0.2930262316058861
+cluster_22	0.4056301983365323
+
+The probability of a word given the class
+-----------------------------------------
+	cluster_21	cluster_20	cluster_22	
+buzz	0.028232636928289104	0.040985732814526596	0.05547681716946752	
+subscrib	0.042913608130999426	0.059403372243839174	0.03077546061955863	
+map	0.060417843026538694	0.03579766536964981	0.027940878720388754	
+passeng	0.028232636928289104	0.060700389105058365	0.026928528042113802	
+feast	0.06775832862789384	0.04150453955901426	0.03239522170479855	
+follet	0.04856013551665725	0.04461738002594033	0.06418303300263216	
+mirag	0.08159232072275549	0.05862516212710765	0.050010123506782765	
+squeez	0.05335968379446642	0.11621271076523994	0.049402713099817794	
+idyll	0.07538114059853192	0.08015564202334635	0.067827495444422	
+shrine	0.054488989271597975	0.04513618677042803	0.035229803603968435	
+lineman	0.028232636928289104	0.025940337224383922	0.05547681716946752	
+valeri	0.04234895539243365	0.038910505836575876	0.0404940271309982	
+berg	0.05844155844155843	0.03605706874189364	0.052034824863332656	
+boon	0.028232636928289104	0.04072632944228276	0.05891880947560237	
+chemic	0.05505364201016373	0.06536964980544746	0.06256327191739218	
+novelist	0.06098249576510446	0.025940337224383922	0.03199028143348858	
+lewi	0.028232636928289104	0.025940337224383922	0.05324964567726264	
+satur	0.028232636928289104	0.04409857328145266	0.048795302692852816	
+reaction	0.05138339920948616	0.04721141374837873	0.03684956468920835	
+seoul	0.0496894409937888	0.04072632944228276	0.05871633933994738	
+taylor	0.028232636928289104	0.025940337224383922	0.06074104069649729	
+
+
+Time taken to build model: 0.09 seconds
+Time taken to test model on training data: 0.13 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances         639               40.9615 %
+Incorrectly Classified Instances       921               59.0385 %
+Kappa statistic                          0.0074
+Mean absolute error                      0.4379
+Root mean squared error                  0.4674
+Relative absolute error                 99.7123 %
+Root relative squared error             99.7355 %
+Total Number of Instances             1560     
+
+
+=== Confusion Matrix ===
+
+   a   b   c   <-- classified as
+   4   0 466 |   a = cluster_21
+   0   3 454 |   b = cluster_20
+   1   0 632 |   c = cluster_22
+
+
+
+=== Stratified cross-validation ===
+
+Correctly Classified Instances         632               40.5128 %
+Incorrectly Classified Instances       928               59.4872 %
+Kappa statistic                         -0.0004
+Mean absolute error                      0.4389
+Root mean squared error                  0.4683
+Relative absolute error                 99.9235 %
+Root relative squared error             99.9333 %
+Total Number of Instances             1560     
+
+
+=== Confusion Matrix ===
+
+   a   b   c   <-- classified as
+   0   0 470 |   a = cluster_21
+   1   2 454 |   b = cluster_20
+   2   1 630 |   c = cluster_22
+

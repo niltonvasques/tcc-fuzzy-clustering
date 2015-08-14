@@ -1,0 +1,170 @@
+
+Naive Bayes Classifier
+
+                        Class
+Attribute           cluster_6 cluster_5
+                       (0.92)    (0.08)
+========================================
+sedimentari
+  mean                  0.0005         0
+  std. dev.             0.1183    0.1183
+  weight sum              2956       244
+  precision               0.71      0.71
+
+tile
+  mean                  0.0005         0
+  std. dev.             0.1183    0.1183
+  weight sum              2956       244
+  precision               0.71      0.71
+
+wetland
+  mean                  0.0009         0
+  std. dev.             0.0583    0.0583
+  weight sum              2956       244
+  precision               0.35      0.35
+
+mediat
+  mean                  0.0009         0
+  std. dev.             0.0583    0.0583
+  weight sum              2956       244
+  precision               0.35      0.35
+
+fluidflow
+  mean                  0.0005         0
+  std. dev.             0.1183    0.1183
+  weight sum              2956       244
+  precision               0.71      0.71
+
+reusabl
+  mean                  0.0005         0
+  std. dev.             0.1183    0.1183
+  weight sum              2956       244
+  precision               0.71      0.71
+
+hunt
+  mean                  0.0005         0
+  std. dev.             0.1183    0.1183
+  weight sum              2956       244
+  precision               0.71      0.71
+
+pandora
+  mean                  0.0005         0
+  std. dev.             0.1183    0.1183
+  weight sum              2956       244
+  precision               0.71      0.71
+
+ga
+  mean                  0.0008         0
+  std. dev.             0.0683    0.0683
+  weight sum              2956       244
+  precision               0.41      0.41
+
+subcellular
+  mean                       0    0.0058
+  std. dev.             0.1183    0.1183
+  weight sum              2956       244
+  precision               0.71      0.71
+
+pertub
+  mean                  0.0005         0
+  std. dev.             0.1183    0.1183
+  weight sum              2956       244
+  precision               0.71      0.71
+
+plume
+  mean                  0.0007         0
+  std. dev.             0.0833    0.0833
+  weight sum              2956       244
+  precision                0.5       0.5
+
+chemic
+  mean                  0.0012         0
+  std. dev.             0.0483    0.0483
+  weight sum              2956       244
+  precision               0.29      0.29
+
+assembl
+  mean                  0.0009         0
+  std. dev.             0.0583    0.0583
+  weight sum              2956       244
+  precision               0.35      0.35
+
+jaya
+  mean                  0.0005         0
+  std. dev.             0.1183    0.1183
+  weight sum              2956       244
+  precision               0.71      0.71
+
+philippin
+  mean                  0.0007         0
+  std. dev.             0.0833    0.0833
+  weight sum              2956       244
+  precision                0.5       0.5
+
+reaction
+  mean                  0.0012         0
+  std. dev.             0.0483    0.0483
+  weight sum              2956       244
+  precision               0.29      0.29
+
+satur
+  mean                  0.0005         0
+  std. dev.             0.1183    0.1183
+  weight sum              2956       244
+  precision               0.71      0.71
+
+characterizatiion
+  mean                  0.0005         0
+  std. dev.             0.1183    0.1183
+  weight sum              2956       244
+  precision               0.71      0.71
+
+immunolog
+  mean                  0.0005         0
+  std. dev.             0.1183    0.1183
+  weight sum              2956       244
+  precision               0.71      0.71
+
+
+
+Time taken to build model: 0.35 seconds
+Time taken to test model on training data: 0.5 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances        2956               92.375  %
+Incorrectly Classified Instances       244                7.625  %
+Kappa statistic                          0     
+Mean absolute error                      0.141 
+Root mean squared error                  0.2653
+Relative absolute error                 99.9347 %
+Root relative squared error             99.9812 %
+Total Number of Instances             3200     
+
+
+=== Confusion Matrix ===
+
+    a    b   <-- classified as
+ 2956    0 |    a = cluster_6
+  244    0 |    b = cluster_5
+
+
+
+=== Stratified cross-validation ===
+
+Correctly Classified Instances        2956               92.375  %
+Incorrectly Classified Instances       244                7.625  %
+Kappa statistic                          0     
+Mean absolute error                      0.141 
+Root mean squared error                  0.2654
+Relative absolute error                 99.9481 %
+Root relative squared error             99.9873 %
+Total Number of Instances             3200     
+
+
+=== Confusion Matrix ===
+
+    a    b   <-- classified as
+ 2956    0 |    a = cluster_6
+  244    0 |    b = cluster_5
+

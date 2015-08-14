@@ -1,3 +1,8 @@
 *.swp
 src/.metadata
 doc/pedryes-*
+out.gif
+src/FCM
+src/FCM src/FCM.zip
+src/FCM.zip
+out*

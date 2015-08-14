@@ -1,0 +1,75 @@
+
+The independent probability of a class
+--------------------------------------
+cluster_12	0.5961058412381428
+cluster_13	0.17024463305042437
+cluster_11	0.23364952571143285
+
+The probability of a word given the class
+-----------------------------------------
+	cluster_12	cluster_13	cluster_11	
+phosphoru	0.024133551079658845	0.04729538374398195	0.045499117474014625	
+lamppost	0.03556523317002356	0.028320589068252668	0.050794273386938746	
+drawer	0.025040827436036986	0.028320589068252668	0.049421455187291755	
+supervisor	0.031028851388132786	0.04842820730671206	0.019611688566385618	
+subscrib	0.05988023952095802	0.028320589068252668	0.02431849382231817	
+plow	0.027218290691344557	0.028320589068252668	0.04902922141596404	
+haldol	0.06441662130284878	0.03738317757009351	0.03843890959011579	
+reusabl	0.04699691526038828	0.03738317757009351	0.03216316924887241	
+lvsun	0.031028851388132786	0.04842820730671206	0.019611688566385618	
+an	0.2866993286154924	0.17615406400453085	0.16532653461462984	
+atmpospher	0.031028851388132786	0.028320589068252668	0.033535987448519405	
+cosmo	0.042641988749773145	0.05380911922968005	0.019611688566385618	
+sc	0.06060606060606056	0.08949306145567845	0.044322416160031484	
+chemic	0.04028307022318993	0.0841121495327104	0.061972935869778534	
+lewi	0.027218290691344557	0.04248088360237899	0.07844675426554244	
+philippin	0.031028851388132786	0.028320589068252668	0.033535987448519405	
+reaction	0.03665396479767736	0.05550835457377526	0.09139046871935694	
+satur	0.060243150063509304	0.05295950155763248	0.02529907825063744	
+taylor	0.02014153511159497	0.028320589068252668	0.05883506569915684	
+unlaw	0.018145527127563035	0.028320589068252668	0.05883506569915684	
+
+
+Time taken to build model: 0.1 seconds
+Time taken to test model on training data: 0.19 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances        1193               59.65   %
+Incorrectly Classified Instances       807               40.35   %
+Kappa statistic                          0     
+Mean absolute error                      0.3724
+Root mean squared error                  0.4308
+Relative absolute error                 99.5851 %
+Root relative squared error             99.6478 %
+Total Number of Instances             2000     
+
+
+=== Confusion Matrix ===
+
+    a    b    c   <-- classified as
+ 1193    0    0 |    a = cluster_12
+  340    0    0 |    b = cluster_13
+  467    0    0 |    c = cluster_11
+
+
+
+=== Stratified cross-validation ===
+
+Correctly Classified Instances        1193               59.65   %
+Incorrectly Classified Instances       807               40.35   %
+Kappa statistic                          0     
+Mean absolute error                      0.373 
+Root mean squared error                  0.4315
+Relative absolute error                 99.742  %
+Root relative squared error             99.7985 %
+Total Number of Instances             2000     
+
+
+=== Confusion Matrix ===
+
+    a    b    c   <-- classified as
+ 1193    0    0 |    a = cluster_12
+  340    0    0 |    b = cluster_13
+  467    0    0 |    c = cluster_11
+

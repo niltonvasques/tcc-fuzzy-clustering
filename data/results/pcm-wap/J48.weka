@@ -1,0 +1,57 @@
+
+Options: -C 0.25 -M 2 
+
+J48 pruned tree
+------------------
+
+idyll <= 0: cluster_2 (1521.0/650.0)
+idyll > 0
+|   idyll <= 0.14: cluster_1 (34.0/15.0)
+|   idyll > 0.14: cluster_2 (5.0/1.0)
+
+Number of Leaves  : 	3
+
+Size of the tree : 	5
+
+
+Time taken to build model: 0.33 seconds
+Time taken to test model on training data: 0.12 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances         894               57.3077 %
+Incorrectly Classified Instances       666               42.6923 %
+Kappa statistic                          0.013 
+Mean absolute error                      0.489 
+Root mean squared error                  0.4945
+Relative absolute error                 99.7779 %
+Root relative squared error             99.8902 %
+Total Number of Instances             1560     
+
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 875  15 |   a = cluster_2
+ 651  19 |   b = cluster_1
+
+
+
+=== Stratified cross-validation ===
+
+Correctly Classified Instances         880               56.4103 %
+Incorrectly Classified Instances       680               43.5897 %
+Kappa statistic                         -0.0111
+Mean absolute error                      0.4912
+Root mean squared error                  0.4965
+Relative absolute error                100.2325 %
+Root relative squared error            100.3039 %
+Total Number of Instances             1560     
+
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 876  14 |   a = cluster_2
+ 666   4 |   b = cluster_1
+

@@ -1,0 +1,78 @@
+
+The independent probability of a class
+--------------------------------------
+cluster_61	0.21818181818181817
+cluster_62	0.34545454545454546
+cluster_63	0.2545454545454545
+cluster_64	0.18181818181818182
+
+The probability of a word given the class
+-----------------------------------------
+	cluster_61	cluster_62	cluster_63	cluster_64	
+floor_level_servic_provid	0.03874467260751647	0.06926159129937033	0.04258943781942078	0.04258943781942078	
+eee_laptop_big	0.03874467260751647	0.06926159129937033	0.04258943781942078	0.04258943781942078	
+screen_luminesc	0.03874467260751647	0.028620492272467084	0.10306643952299828	0.04258943781942078	
+long_dai	0.06586594343277802	0.06897538637664569	0.04258943781942078	0.04258943781942078	
+standard_room	0.03874467260751647	0.07298225529479106	0.04258943781942078	0.04258943781942078	
+scrambl_egg	0.03874467260751647	0.05724098454493417	0.04258943781942078	0.04258943781942078	
+bmw_seri	0.03874467260751647	0.028620492272467084	0.08517887563884156	0.04258943781942078	
+price_due_excel_locat	0.09376210771018985	0.028620492272467084	0.04258943781942078	0.04258943781942078	
+featur_don	0.03874467260751647	0.028620492272467084	0.04258943781942078	0.08517887563884156	
+verizon_broadband	0.09376210771018985	0.028620492272467084	0.04258943781942078	0.04258943781942078	
+button_side	0.03874467260751647	0.06096164854035488	0.04258943781942078	0.04258943781942078	
+locat_fisherman	0.06199147617202636	0.031196336576989128	0.04982964224872232	0.07538330494037479	
+tune_favorit_radio	0.03874467260751647	0.05724098454493417	0.04258943781942078	0.04258943781942078	
+chemist_yd	0.03874467260751647	0.04894104178591871	0.04258943781942078	0.07282793867120954	
+alert_courteou	0.03874467260751647	0.04149971379507728	0.08049403747870529	0.04258943781942078	
+great_room_great	0.03874467260751647	0.06926159129937033	0.04258943781942078	0.04258943781942078	
+full_price	0.03874467260751647	0.07441327990841444	0.04258943781942078	0.04258943781942078	
+engin_perform	0.0647036032545525	0.028620492272467084	0.04258943781942078	0.08517887563884156	
+engin_perform_lack	0.03874467260751647	0.07842014882655983	0.04258943781942078	0.04258943781942078	
+door_hit	0.07748934521503295	0.028620492272467084	0.04258943781942078	0.04258943781942078	
+
+
+Time taken to build model: 0.03 seconds
+Time taken to test model on training data: 0.06 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances          27               52.9412 %
+Incorrectly Classified Instances        24               47.0588 %
+Kappa statistic                          0.3045
+Mean absolute error                      0.3324
+Root mean squared error                  0.3922
+Relative absolute error                 90.58   %
+Root relative squared error             91.6303 %
+Total Number of Instances               51     
+
+
+=== Confusion Matrix ===
+
+  a  b  c  d   <-- classified as
+  4  6  0  1 |  a = cluster_61
+  0 18  0  0 |  b = cluster_62
+  0 10  3  0 |  c = cluster_63
+  1  6  0  2 |  d = cluster_64
+
+
+
+=== Stratified cross-validation ===
+
+Correctly Classified Instances          24               47.0588 %
+Incorrectly Classified Instances        27               52.9412 %
+Kappa statistic                          0.2158
+Mean absolute error                      0.3571
+Root mean squared error                  0.4171
+Relative absolute error                 97.0084 %
+Root relative squared error             97.1339 %
+Total Number of Instances               51     
+
+
+=== Confusion Matrix ===
+
+  a  b  c  d   <-- classified as
+  4  6  0  1 |  a = cluster_61
+  0 17  0  1 |  b = cluster_62
+  0 10  3  0 |  c = cluster_63
+  1  7  1  0 |  d = cluster_64
+

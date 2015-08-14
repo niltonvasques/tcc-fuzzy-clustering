@@ -1,0 +1,73 @@
+
+Options: -C 0.25 -M 2 
+
+J48 pruned tree
+------------------
+
+price_due_excel_locat <= 0
+|   verizon_broadband <= 0
+|   |   floor_level_servic_provid <= 0
+|   |   |   full_price <= 0
+|   |   |   |   standard_room <= 0
+|   |   |   |   |   chemist_yd <= 0
+|   |   |   |   |   |   engin_perform <= 0
+|   |   |   |   |   |   |   locat_fisherman <= 0.17: cluster_43 (31.0/18.0)
+|   |   |   |   |   |   |   locat_fisherman > 0.17: cluster_41 (2.0/1.0)
+|   |   |   |   |   |   engin_perform > 0: cluster_44 (3.0/1.0)
+|   |   |   |   |   chemist_yd > 0: cluster_42 (2.0/1.0)
+|   |   |   |   standard_room > 0: cluster_42 (4.0)
+|   |   |   full_price > 0: cluster_42 (3.0)
+|   |   floor_level_servic_provid > 0: cluster_42 (2.0)
+|   verizon_broadband > 0: cluster_41 (2.0)
+price_due_excel_locat > 0: cluster_41 (2.0)
+
+Number of Leaves  : 	9
+
+Size of the tree : 	17
+
+
+Time taken to build model: 0.25 seconds
+Time taken to test model on training data: 0.06 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances          30               58.8235 %
+Incorrectly Classified Instances        21               41.1765 %
+Kappa statistic                          0.4384
+Mean absolute error                      0.2471
+Root mean squared error                  0.3515
+Relative absolute error                 67.3257 %
+Root relative squared error             82.1172 %
+Total Number of Instances               51     
+
+
+=== Confusion Matrix ===
+
+  a  b  c  d   <-- classified as
+ 10  8  0  0 |  a = cluster_42
+  0 13  0  0 |  b = cluster_43
+  0  5  5  1 |  c = cluster_41
+  1  5  1  2 |  d = cluster_44
+
+
+
+=== Stratified cross-validation ===
+
+Correctly Classified Instances          14               27.451  %
+Incorrectly Classified Instances        37               72.549  %
+Kappa statistic                         -0.038 
+Mean absolute error                      0.3603
+Root mean squared error                  0.445 
+Relative absolute error                 97.8663 %
+Root relative squared error            103.6277 %
+Total Number of Instances               51     
+
+
+=== Confusion Matrix ===
+
+  a  b  c  d   <-- classified as
+ 10  7  1  0 |  a = cluster_42
+  8  4  1  0 |  b = cluster_43
+  5  5  0  1 |  c = cluster_41
+  3  5  1  0 |  d = cluster_44
+

@@ -1,34 +1,40 @@
 #!/usr/bin/env ruby
 #
 base = ARGV[0]
+experiment = ARGV[1]
 
-pcm = { }
-fcm = { }
+clusters = { }
+
 classifiers = []
-result = %x( grep 'Correctly Classified Instances' -r --include=*.weka | grep #{base} )
+result = %x( grep 'Correctly Classified Instances' -r --include=*.weka #{experiment} | grep #{base} )
+# results-hefcm-hefsfcm-fcm/hefcm-opinosis/NB.weka:Correctly Classified Instances          32               62.7451 %
 lines = result.split("\n")
 lines.each do |line|
   tp = %x( echo #{line} | awk '{print $5}')
   tp.sub!("\n","")
-  cluster = %x(echo #{line} | cut -f1 -d-) 
-  classifier = %x(echo #{line} | cut -f2 -d/ | cut -f1 -d.)
+  cluster = %x(echo #{line} | cut -f2 -d/ | cut -f1 -d-) 
+  classifier = %x(echo #{line} | cut -f3 -d/ | cut -f1 -d.)
   classifier.sub!("\n","")
   cluster.sub!("\n","")
-  #puts "#{classifier} - #{cluster} - #{tp}"
+  puts "#{classifier} - #{cluster} - #{tp}"
 
   classifiers.push(classifier)
 
-  if cluster == "fcm" 
-    fcm[classifier] = tp
-  elsif cluster == "pcm" 
-    pcm[classifier] = tp
+  if clusters[cluster].nil?
+    clusters[cluster] = {}
   end
+
+  clusters[cluster][classifier] = tp
+
 end
 max_knn = "KNN1"
 max_knn_tp = 0
 classifiers.uniq.each do |c|
   if c.include?("KNN")
-    avg = pcm[c].to_f + fcm[c].to_f
+    avg = 0
+    clusters.keys.each do |k|
+      avg += clusters[k][c].to_f
+    end
     if avg > max_knn_tp
       max_knn_tp = avg
       max_knn = c
@@ -47,9 +53,13 @@ end
 #puts "PCM\t #{pcm.values.map{|v| v+"\t"}.join}"
 
 File.open("#{base}.dat", 'w') do |file|
-  file.write "Title FCM PCM\n"
+  file.write "Title #{clusters.keys.map{ |k| k.upcase+" "}.join}\n"
   classifiers.uniq.each do |c|
-    file.write "#{c} #{fcm[c]} #{pcm[c]}\n"
+    file.write "#{c}"
+    clusters.keys.each do |cluster|
+      file.write " #{clusters[cluster][c]}"
+    end
+    file.write "\n"
   end
 end
 system( "./gplot.sh #{base}")

@@ -1,0 +1,233 @@
+Zero Weights processed. Default weights will be used
+*
+optimization finished, #iter = 6
+nu = 0.3157894736842105
+obj = -23.999412179364057, rho = 1.000013703390076
+nSV = 12, nBSV = 12
+*
+optimization finished, #iter = 2
+nu = 0.5
+obj = -7.99978698862742, rho = -0.9999935599530545
+nSV = 4, nBSV = 4
+*
+optimization finished, #iter = 2
+nu = 0.11764705882352941
+obj = -7.99976378102582, rho = -0.9999867979615971
+nSV = 4, nBSV = 4
+Total nSV = 15
+*
+optimization finished, #iter = 7
+nu = 0.35294117647058826
+obj = -23.999162402802725, rho = -1.0000000000321403
+nSV = 13, nBSV = 11
+*
+optimization finished, #iter = 2
+nu = 0.13333333333333333
+obj = -7.999764533694365, rho = -0.9999867979615971
+nSV = 4, nBSV = 4
+*
+optimization finished, #iter = 2
+nu = 0.5
+obj = -7.999503292947338, rho = -0.9998517121130135
+nSV = 4, nBSV = 4
+Total nSV = 16
+*
+optimization finished, #iter = 7
+nu = 0.35294117647058826
+obj = -23.99909443243677, rho = -0.9999293877366955
+nSV = 13, nBSV = 11
+*
+optimization finished, #iter = 3
+nu = 0.13333333333333333
+obj = -7.999323264742992, rho = -0.9995155167626641
+nSV = 5, nBSV = 3
+*
+optimization finished, #iter = 2
+nu = 0.5
+obj = -7.99978698862742, rho = -0.9999935599530545
+nSV = 4, nBSV = 4
+Total nSV = 16
+*
+optimization finished, #iter = 2
+nu = 0.12903225806451613
+obj = -7.999725124004783, rho = -0.999984886425068
+nSV = 4, nBSV = 4
+*
+optimization finished, #iter = 6
+nu = 0.29411764705882354
+obj = -19.99841046214356, rho = -0.9999245543557641
+nSV = 11, nBSV = 9
+*
+optimization finished, #iter = 2
+nu = 0.5714285714285714
+obj = -7.999799868721311, rho = 1.0
+nSV = 4, nBSV = 4
+Total nSV = 13
+*
+optimization finished, #iter = 2
+nu = 0.12903225806451613
+obj = -7.999764533759901, rho = -0.9999867979615971
+nSV = 4, nBSV = 4
+*
+optimization finished, #iter = 6
+nu = 0.29411764705882354
+obj = -19.999083814411815, rho = -0.9997724815853607
+nSV = 11, nBSV = 9
+*
+optimization finished, #iter = 2
+nu = 0.5714285714285714
+obj = -7.99979911598723, rho = 0.9999996236329594
+nSV = 4, nBSV = 4
+Total nSV = 14
+*
+optimization finished, #iter = 6
+nu = 0.29411764705882354
+obj = -19.998569039860886, rho = -1.000000028723608
+nSV = 11, nBSV = 9
+*
+optimization finished, #iter = 2
+nu = 0.12903225806451613
+obj = -7.998913846083326, rho = -0.9995794147484958
+nSV = 4, nBSV = 4
+*
+optimization finished, #iter = 2
+nu = 0.5714285714285714
+obj = -7.999799868721311, rho = -1.0
+nSV = 4, nBSV = 4
+Total nSV = 14
+*
+optimization finished, #iter = 6
+nu = 0.29411764705882354
+obj = -19.999354762211954, rho = -1.0000000001020395
+nSV = 11, nBSV = 9
+*
+optimization finished, #iter = 2
+nu = 0.12903225806451613
+obj = -7.999764533759901, rho = -0.9999867979615971
+nSV = 4, nBSV = 4
+*
+optimization finished, #iter = 2
+nu = 0.5714285714285714
+obj = -7.99979911598723, rho = -0.9999996236329594
+nSV = 4, nBSV = 4
+Total nSV = 14
+*
+optimization finished, #iter = 6
+nu = 0.29411764705882354
+obj = -19.999341733451377, rho = -1.0000000000321618
+nSV = 11, nBSV = 9
+*
+optimization finished, #iter = 2
+nu = 0.12903225806451613
+obj = -7.999764533759901, rho = -0.9999867979615971
+nSV = 4, nBSV = 4
+*
+optimization finished, #iter = 2
+nu = 0.5714285714285714
+obj = -7.999503292947338, rho = -0.9998517062322785
+nSV = 4, nBSV = 4
+Total nSV = 14
+*
+optimization finished, #iter = 7
+nu = 0.29411764705882354
+obj = -19.99937269647666, rho = -0.9998769281583915
+nSV = 12, nBSV = 8
+*
+optimization finished, #iter = 2
+nu = 0.12903225806451613
+obj = -7.999764533759901, rho = -0.9999867979615971
+nSV = 4, nBSV = 4
+*
+optimization finished, #iter = 2
+nu = 0.5714285714285714
+obj = -7.999786235893339, rho = -0.9999935599530545
+nSV = 4, nBSV = 4
+Total nSV = 15
+*
+optimization finished, #iter = 1
+nu = 0.06666666666666667
+obj = -3.999908484649495, rho = -0.9999804877222971
+nSV = 2, nBSV = 2
+*
+optimization finished, #iter = 7
+nu = 0.34285714285714286
+obj = -23.99905194590289, rho = -1.0000000000321636
+nSV = 13, nBSV = 11
+*
+optimization finished, #iter = 1
+nu = 0.2857142857142857
+obj = -3.999947894404613, rho = 1.0
+nSV = 2, nBSV = 2
+Total nSV = 14
+*
+optimization finished, #iter = 7
+nu = 0.34285714285714286
+obj = -23.999232230284857, rho = -0.9999999999623546
+nSV = 13, nBSV = 11
+*
+optimization finished, #iter = 1
+nu = 0.06666666666666667
+obj = -3.999890802289883, rho = -1.0000055501809584
+nSV = 2, nBSV = 2
+*
+optimization finished, #iter = 1
+nu = 0.2857142857142857
+obj = -3.999566481921647, rho = -0.999837839815882
+nSV = 2, nBSV = 2
+Total nSV = 14
+
+Options: -S 0 -K 1 -D 3 -G 0.0 -R 0.0 -N 0.5 -M 40.0 -C 2.0 -E 0.001 -P 0.1 -seed 1 
+
+LibSVM wrapper, original code by Yasser EL-Manzalawy (= WLSVM)
+
+Time taken to build model: 0.09 seconds
+Time taken to test model on training data: 0.05 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances          32               80      %
+Incorrectly Classified Instances         8               20      %
+Kappa statistic                          0     
+Mean absolute error                      0.0571
+Root mean squared error                  0.239 
+Relative absolute error                 48.4536 %
+Root relative squared error            107.4303 %
+Total Number of Instances               40     
+
+
+=== Confusion Matrix ===
+
+  a  b  c  d  e  f  g   <-- classified as
+  0  0  0  0  0  0  0 |  a = cluster_40
+  0 32  0  0  0  0  0 |  b = cluster_30
+  0  0  0  0  0  0  0 |  c = cluster_37
+  0  0  0  0  0  0  0 |  d = cluster_39
+  0  0  0  0  0  0  0 |  e = cluster_38
+  0  6  0  0  0  0  0 |  f = cluster_32
+  0  2  0  0  0  0  0 |  g = cluster_29
+
+
+
+=== Stratified cross-validation ===
+
+Correctly Classified Instances          32               80      %
+Incorrectly Classified Instances         8               20      %
+Kappa statistic                          0     
+Mean absolute error                      0.0571
+Root mean squared error                  0.239 
+Relative absolute error                 47.2527 %
+Root relative squared error            106.0517 %
+Total Number of Instances               40     
+
+
+=== Confusion Matrix ===
+
+  a  b  c  d  e  f  g   <-- classified as
+  0  0  0  0  0  0  0 |  a = cluster_40
+  0 32  0  0  0  0  0 |  b = cluster_30
+  0  0  0  0  0  0  0 |  c = cluster_37
+  0  0  0  0  0  0  0 |  d = cluster_39
+  0  0  0  0  0  0  0 |  e = cluster_38
+  0  6  0  0  0  0  0 |  f = cluster_32
+  0  2  0  0  0  0  0 |  g = cluster_29
+

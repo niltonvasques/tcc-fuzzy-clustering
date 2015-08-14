@@ -1,0 +1,70 @@
+
+Options: -K 7 -W 0 -A "weka.core.neighboursearch.LinearNNSearch -A "weka.core.EuclideanDistance -R first-last"" 
+
+IB1 instance-based classifier
+using 7 nearest neighbour(s) for classification
+
+
+Time taken to build model: 0.03 seconds
+Time taken to test model on training data: 0.19 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances          32               80      %
+Incorrectly Classified Instances         8               20      %
+Kappa statistic                          0     
+Mean absolute error                      0.0441
+Root mean squared error                  0.157 
+Relative absolute error                 59.8122 %
+Root relative squared error             92.9885 %
+Total Number of Instances               40     
+
+
+=== Confusion Matrix ===
+
+  a  b  c  d  e  f  g  h  i  j  k  l  m   <-- classified as
+ 32  0  0  0  0  0  0  0  0  0  0  0  0 |  a = cluster_101
+  0  0  0  0  0  0  0  0  0  0  0  0  0 |  b = cluster_109
+  6  0  0  0  0  0  0  0  0  0  0  0  0 |  c = cluster_103
+  0  0  0  0  0  0  0  0  0  0  0  0  0 |  d = cluster_127
+  0  0  0  0  0  0  0  0  0  0  0  0  0 |  e = cluster_112
+  0  0  0  0  0  0  0  0  0  0  0  0  0 |  f = cluster_138
+  0  0  0  0  0  0  0  0  0  0  0  0  0 |  g = cluster_139
+  0  0  0  0  0  0  0  0  0  0  0  0  0 |  h = cluster_140
+  0  0  0  0  0  0  0  0  0  0  0  0  0 |  i = cluster_128
+  0  0  0  0  0  0  0  0  0  0  0  0  0 |  j = cluster_125
+  2  0  0  0  0  0  0  0  0  0  0  0  0 |  k = cluster_104
+  0  0  0  0  0  0  0  0  0  0  0  0  0 |  l = cluster_137
+  0  0  0  0  0  0  0  0  0  0  0  0  0 |  m = cluster_110
+
+
+
+=== Stratified cross-validation ===
+
+Correctly Classified Instances          32               80      %
+Incorrectly Classified Instances         8               20      %
+Kappa statistic                          0     
+Mean absolute error                      0.0454
+Root mean squared error                  0.1626
+Relative absolute error                 59.7999 %
+Root relative squared error             94.8381 %
+Total Number of Instances               40     
+
+
+=== Confusion Matrix ===
+
+  a  b  c  d  e  f  g  h  i  j  k  l  m   <-- classified as
+ 32  0  0  0  0  0  0  0  0  0  0  0  0 |  a = cluster_101
+  0  0  0  0  0  0  0  0  0  0  0  0  0 |  b = cluster_109
+  6  0  0  0  0  0  0  0  0  0  0  0  0 |  c = cluster_103
+  0  0  0  0  0  0  0  0  0  0  0  0  0 |  d = cluster_127
+  0  0  0  0  0  0  0  0  0  0  0  0  0 |  e = cluster_112
+  0  0  0  0  0  0  0  0  0  0  0  0  0 |  f = cluster_138
+  0  0  0  0  0  0  0  0  0  0  0  0  0 |  g = cluster_139
+  0  0  0  0  0  0  0  0  0  0  0  0  0 |  h = cluster_140
+  0  0  0  0  0  0  0  0  0  0  0  0  0 |  i = cluster_128
+  0  0  0  0  0  0  0  0  0  0  0  0  0 |  j = cluster_125
+  2  0  0  0  0  0  0  0  0  0  0  0  0 |  k = cluster_104
+  0  0  0  0  0  0  0  0  0  0  0  0  0 |  l = cluster_137
+  0  0  0  0  0  0  0  0  0  0  0  0  0 |  m = cluster_110
+

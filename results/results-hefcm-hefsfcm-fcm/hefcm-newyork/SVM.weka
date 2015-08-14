@@ -1,0 +1,129 @@
+Zero Weights processed. Default weights will be used
+*
+optimization finished, #iter = 8
+nu = 0.8888888888888888
+obj = -31.986106473807013, rho = 0.9998749999940628
+nSV = 16, nBSV = 16
+Total nSV = 16
+*
+optimization finished, #iter = 7
+nu = 0.875
+obj = -27.988106473902008, rho = 0.9998749999940628
+nSV = 14, nBSV = 14
+Total nSV = 14
+*
+optimization finished, #iter = 7
+nu = 0.875
+obj = -27.98645254902658, rho = 0.9998749999940628
+nSV = 14, nBSV = 14
+Total nSV = 14
+*
+optimization finished, #iter = 7
+nu = 0.875
+obj = -27.987271211633924, rho = 0.9998749999940628
+nSV = 14, nBSV = 14
+Total nSV = 14
+*
+optimization finished, #iter = 9
+nu = 0.875
+obj = -27.985452548979083, rho = -0.9989999999525025
+nSV = 15, nBSV = 13
+Total nSV = 15
+*
+optimization finished, #iter = 8
+nu = 0.875
+obj = -27.987202549062204, rho = -0.9989999999525025
+nSV = 15, nBSV = 13
+Total nSV = 15
+*
+optimization finished, #iter = 8
+nu = 0.875
+obj = -27.985452548979083, rho = -0.9989999999525025
+nSV = 15, nBSV = 13
+Total nSV = 15
+*
+optimization finished, #iter = 7
+nu = 0.875
+obj = -27.987117286829744, rho = 0.9998749999940628
+nSV = 14, nBSV = 14
+Total nSV = 14
+*
+optimization finished, #iter = 8
+nu = 0.875
+obj = -27.991780200507492, rho = -0.9998542061512126
+nSV = 14, nBSV = 14
+Total nSV = 14
+*
+optimization finished, #iter = 9
+nu = 0.9411764705882353
+obj = -31.98535647377139, rho = 0.9989999999525025
+nSV = 17, nBSV = 15
+Total nSV = 17
+*
+optimization finished, #iter = 8
+nu = 0.9411764705882353
+obj = -31.986106473807013, rho = 0.9998749999940628
+nSV = 16, nBSV = 16
+Total nSV = 16
+
+Options: -S 0 -K 1 -D 3 -G 0.0 -R 0.0 -N 0.5 -M 40.0 -C 2.0 -E 0.001 -P 0.1 -seed 1 
+
+LibSVM wrapper, original code by Yasser EL-Manzalawy (= WLSVM)
+
+Time taken to build model: 0.07 seconds
+Time taken to test model on training data: 0.03 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances          10               55.5556 %
+Incorrectly Classified Instances         8               44.4444 %
+Kappa statistic                          0     
+Mean absolute error                      0.0889
+Root mean squared error                  0.2981
+Relative absolute error                 69.5652 %
+Root relative squared error            127.6358 %
+Total Number of Instances               18     
+
+
+=== Confusion Matrix ===
+
+  a  b  c  d  e  f  g  h  i  j   <-- classified as
+  0  0  0  0  0  0  0  0  0  0 |  a = cluster_100
+  0  0  0  0  0  0  0  0  0  0 |  b = cluster_119
+  0  0  0  0  0  0  0  0  0  0 |  c = cluster_98
+  0  0  0  0  0  0  0  0  0  0 |  d = cluster_117
+  0  0  0  0  0  0  0  0  0  0 |  e = cluster_99
+  0  0  0  0  0  0  0  0  0  0 |  f = cluster_97
+  0  0  0  0  0  0 10  0  0  0 |  g = cluster_95
+  0  0  0  0  0  0  0  0  0  0 |  h = cluster_118
+  0  0  0  0  0  0  8  0  0  0 |  i = cluster_96
+  0  0  0  0  0  0  0  0  0  0 |  j = cluster_120
+
+
+
+=== Stratified cross-validation ===
+
+Correctly Classified Instances          10               55.5556 %
+Incorrectly Classified Instances         8               44.4444 %
+Kappa statistic                          0     
+Mean absolute error                      0.0889
+Root mean squared error                  0.2981
+Relative absolute error                 68.2547 %
+Root relative squared error            126.2947 %
+Total Number of Instances               18     
+
+
+=== Confusion Matrix ===
+
+  a  b  c  d  e  f  g  h  i  j   <-- classified as
+  0  0  0  0  0  0  0  0  0  0 |  a = cluster_100
+  0  0  0  0  0  0  0  0  0  0 |  b = cluster_119
+  0  0  0  0  0  0  0  0  0  0 |  c = cluster_98
+  0  0  0  0  0  0  0  0  0  0 |  d = cluster_117
+  0  0  0  0  0  0  0  0  0  0 |  e = cluster_99
+  0  0  0  0  0  0  0  0  0  0 |  f = cluster_97
+  0  0  0  0  0  0 10  0  0  0 |  g = cluster_95
+  0  0  0  0  0  0  0  0  0  0 |  h = cluster_118
+  0  0  0  0  0  0  8  0  0  0 |  i = cluster_96
+  0  0  0  0  0  0  0  0  0  0 |  j = cluster_120
+

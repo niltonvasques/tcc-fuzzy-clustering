@@ -1,0 +1,75 @@
+
+The independent probability of a class
+--------------------------------------
+cluster_14	0.7441860465116279
+cluster_16	0.20930232558139536
+cluster_15	0.046511627906976744
+
+The probability of a word given the class
+-----------------------------------------
+	cluster_14	cluster_16	cluster_15	
+applied_similarity	0.02555583950932789	0.08077544426494344	0.04716981132075471	
+fabio	0.06440071556350625	0.09450726978998385	0.04716981132075471	
+check_tendencies	0.05111167901865576	0.040387722132471736	0.04716981132075471	
+denotes_signi	0.05111167901865576	0.040387722132471736	0.04716981132075471	
+defined_interval	0.06184513161257349	0.040387722132471736	0.04716981132075471	
+curves_fuzzy	0.05111167901865576	0.040387722132471736	0.04716981132075471	
+layers_upper	0.05111167901865576	0.040387722132471736	0.04716981132075471	
+algorithm_developed	0.04037822642473805	0.06381260096930534	0.07452830188679245	
+based_thesauri	0.05111167901865576	0.040387722132471736	0.04716981132075471	
+generated_wang	0.06184513161257349	0.040387722132471736	0.04716981132075471	
+theory_linguistic	0.05111167901865576	0.040387722132471736	0.04716981132075471	
+reach_support	0.05111167901865576	0.040387722132471736	0.04716981132075471	
+sc	0.04727830309225658	0.07431340872374798	0.04716981132075471	
+learning_vector	0.04906721185790953	0.040387722132471736	0.07641509433962264	
+extension_ofthe	0.05111167901865576	0.040387722132471736	0.04716981132075471	
+points_calculations	0.05111167901865576	0.040387722132471736	0.04716981132075471	
+reported_carpineto	0.05111167901865576	0.040387722132471736	0.04716981132075471	
+structures_language	0.02555583950932789	0.08077544426494344	0.04716981132075471	
+based_standard	0.06184513161257349	0.040387722132471736	0.04716981132075471	
+categories_ratios	0.05111167901865576	0.040387722132471736	0.04716981132075471	
+
+
+Time taken to build model: 0.02 seconds
+Time taken to test model on training data: 0.04 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances          32               80      %
+Incorrectly Classified Instances         8               20      %
+Kappa statistic                          0.1645
+Mean absolute error                      0.2329
+Root mean squared error                  0.3169
+Relative absolute error                 91.8796 %
+Root relative squared error             91.4592 %
+Total Number of Instances               40     
+
+
+=== Confusion Matrix ===
+
+  a  b  c   <-- classified as
+ 31  0  0 |  a = cluster_14
+  7  1  0 |  b = cluster_16
+  1  0  0 |  c = cluster_15
+
+
+
+=== Stratified cross-validation ===
+
+Correctly Classified Instances          30               75      %
+Incorrectly Classified Instances        10               25      %
+Kappa statistic                         -0.0444
+Mean absolute error                      0.2745
+Root mean squared error                  0.3578
+Relative absolute error                107.0578 %
+Root relative squared error            102.5553 %
+Total Number of Instances               40     
+
+
+=== Confusion Matrix ===
+
+  a  b  c   <-- classified as
+ 30  1  0 |  a = cluster_14
+  8  0  0 |  b = cluster_16
+  1  0  0 |  c = cluster_15
+

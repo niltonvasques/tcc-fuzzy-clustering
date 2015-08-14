@@ -11,29 +11,29 @@ price_due_excel_locat <= 0
 |   |   |   |   standard_room <= 0
 |   |   |   |   |   chemist_yd <= 0
 |   |   |   |   |   |   engin_perform <= 0
-|   |   |   |   |   |   |   locat_fisherman <= 0.17: cluster_43 (31.0/18.0)
-|   |   |   |   |   |   |   locat_fisherman > 0.17: cluster_41 (2.0/1.0)
-|   |   |   |   |   |   engin_perform > 0: cluster_44 (3.0/1.0)
-|   |   |   |   |   chemist_yd > 0: cluster_42 (2.0/1.0)
-|   |   |   |   standard_room > 0: cluster_42 (4.0)
-|   |   |   full_price > 0: cluster_42 (3.0)
-|   |   floor_level_servic_provid > 0: cluster_42 (2.0)
-|   verizon_broadband > 0: cluster_41 (2.0)
-price_due_excel_locat > 0: cluster_41 (2.0)
+|   |   |   |   |   |   |   locat_fisherman <= 0.17: cluster_23 (31.0/18.0)
+|   |   |   |   |   |   |   locat_fisherman > 0.17: cluster_22 (2.0/1.0)
+|   |   |   |   |   |   engin_perform > 0: cluster_22 (3.0/1.0)
+|   |   |   |   |   chemist_yd > 0: cluster_22 (2.0/1.0)
+|   |   |   |   standard_room > 0: cluster_21 (4.0)
+|   |   |   full_price > 0: cluster_21 (3.0)
+|   |   floor_level_servic_provid > 0: cluster_21 (2.0)
+|   verizon_broadband > 0: cluster_24 (2.0)
+price_due_excel_locat > 0: cluster_24 (2.0)
 
 Number of Leaves  : 	9
 
 Size of the tree : 	17
 
 
-Time taken to build model: 0.25 seconds
-Time taken to test model on training data: 0.06 seconds
+Time taken to build model: 0.24 seconds
+Time taken to test model on training data: 0.05 seconds
 
 === Error on training data ===
 
 Correctly Classified Instances          30               58.8235 %
 Incorrectly Classified Instances        21               41.1765 %
-Kappa statistic                          0.4384
+Kappa statistic                          0.4448
 Mean absolute error                      0.2471
 Root mean squared error                  0.3515
 Relative absolute error                 67.3257 %
@@ -44,18 +44,18 @@ Total Number of Instances               51
 === Confusion Matrix ===
 
   a  b  c  d   <-- classified as
- 10  8  0  0 |  a = cluster_42
-  0 13  0  0 |  b = cluster_43
-  0  5  5  1 |  c = cluster_41
-  1  5  1  2 |  d = cluster_44
+  4  5  0  0 |  a = cluster_22
+  0 13  0  0 |  b = cluster_23
+  2  5  4  0 |  c = cluster_24
+  1  8  0  9 |  d = cluster_21
 
 
 
 === Stratified cross-validation ===
 
-Correctly Classified Instances          14               27.451  %
-Incorrectly Classified Instances        37               72.549  %
-Kappa statistic                         -0.038 
+Correctly Classified Instances          15               29.4118 %
+Incorrectly Classified Instances        36               70.5882 %
+Kappa statistic                         -0.0066
 Mean absolute error                      0.3603
 Root mean squared error                  0.445 
 Relative absolute error                 97.8663 %
@@ -66,8 +66,8 @@ Total Number of Instances               51
 === Confusion Matrix ===
 
   a  b  c  d   <-- classified as
- 10  7  1  0 |  a = cluster_42
-  8  4  1  0 |  b = cluster_43
-  5  5  0  1 |  c = cluster_41
-  3  5  1  0 |  d = cluster_44
+  1  5  0  3 |  a = cluster_22
+  1  4  0  8 |  b = cluster_23
+  1  5  0  5 |  c = cluster_24
+  1  7  0 10 |  d = cluster_21
 

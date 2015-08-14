@@ -1,0 +1,71 @@
+
+Options: -C 0.25 -M 2 
+
+J48 pruned tree
+------------------
+
+clutched <= 0: cluster_95 (16.0/6.0)
+clutched > 0: cluster_96 (2.0)
+
+Number of Leaves  : 	2
+
+Size of the tree : 	3
+
+
+Time taken to build model: 0.06 seconds
+Time taken to test model on training data: 0.02 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances          12               66.6667 %
+Incorrectly Classified Instances         6               33.3333 %
+Kappa statistic                          0.2703
+Mean absolute error                      0.0833
+Root mean squared error                  0.2041
+Relative absolute error                 65.2174 %
+Root relative squared error             87.3863 %
+Total Number of Instances               18     
+
+
+=== Confusion Matrix ===
+
+  a  b  c  d  e  f  g  h  i  j   <-- classified as
+  0  0  0  0  0  0  0  0  0  0 |  a = cluster_100
+  0  0  0  0  0  0  0  0  0  0 |  b = cluster_119
+  0  0  0  0  0  0  0  0  0  0 |  c = cluster_98
+  0  0  0  0  0  0  0  0  0  0 |  d = cluster_117
+  0  0  0  0  0  0  0  0  0  0 |  e = cluster_99
+  0  0  0  0  0  0  0  0  0  0 |  f = cluster_97
+  0  0  0  0  0  0 10  0  0  0 |  g = cluster_95
+  0  0  0  0  0  0  0  0  0  0 |  h = cluster_118
+  0  0  0  0  0  0  6  0  2  0 |  i = cluster_96
+  0  0  0  0  0  0  0  0  0  0 |  j = cluster_120
+
+
+
+=== Stratified cross-validation ===
+
+Correctly Classified Instances          10               55.5556 %
+Incorrectly Classified Instances         8               44.4444 %
+Kappa statistic                          0     
+Mean absolute error                      0.0978
+Root mean squared error                  0.2256
+Relative absolute error                 75.0802 %
+Root relative squared error             95.5648 %
+Total Number of Instances               18     
+
+
+=== Confusion Matrix ===
+
+  a  b  c  d  e  f  g  h  i  j   <-- classified as
+  0  0  0  0  0  0  0  0  0  0 |  a = cluster_100
+  0  0  0  0  0  0  0  0  0  0 |  b = cluster_119
+  0  0  0  0  0  0  0  0  0  0 |  c = cluster_98
+  0  0  0  0  0  0  0  0  0  0 |  d = cluster_117
+  0  0  0  0  0  0  0  0  0  0 |  e = cluster_99
+  0  0  0  0  0  0  0  0  0  0 |  f = cluster_97
+  0  0  0  0  0  0 10  0  0  0 |  g = cluster_95
+  0  0  0  0  0  0  0  0  0  0 |  h = cluster_118
+  0  0  0  0  0  0  8  0  0  0 |  i = cluster_96
+  0  0  0  0  0  0  0  0  0  0 |  j = cluster_120
+

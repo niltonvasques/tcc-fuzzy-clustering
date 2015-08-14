@@ -181,7 +181,7 @@ Options: -S 0 -K 1 -D 3 -G 0.0 -R 0.0 -N 0.5 -M 40.0 -C 2.0 -E 0.001 -P 0.1 -see
 LibSVM wrapper, original code by Yasser EL-Manzalawy (= WLSVM)
 
 Time taken to build model: 0.11 seconds
-Time taken to test model on training data: 0.08 seconds
+Time taken to test model on training data: 0.07 seconds
 
 === Error on training data ===
 
@@ -198,9 +198,9 @@ Total Number of Instances               51
 === Confusion Matrix ===
 
   a  b  c   <-- classified as
-  0  0 19 |  a = cluster_16
-  0  0 12 |  b = cluster_15
-  0  0 20 |  c = cluster_14
+  0  0 19 |  a = cluster_11
+  0  0 12 |  b = cluster_12
+  0  0 20 |  c = cluster_13
 
 
 
@@ -219,7 +219,7 @@ Total Number of Instances               51
 === Confusion Matrix ===
 
   a  b  c   <-- classified as
-  1  0 18 |  a = cluster_16
-  2  0 10 |  b = cluster_15
-  2  0 18 |  c = cluster_14
+  1  0 18 |  a = cluster_11
+  2  0 10 |  b = cluster_12
+  2  0 18 |  c = cluster_13
 

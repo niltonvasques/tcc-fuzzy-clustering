@@ -1,0 +1,174 @@
+
+Naive Bayes Classifier
+
+                           Class
+Attribute              cluster_2 cluster_4 cluster_3 cluster_1
+                          (0.55)    (0.09)    (0.14)    (0.23)
+===============================================================
+million_sales
+  mean                          0         0         0      0.25
+  std. dev.                0.1667    0.1667    0.1667     0.433
+  weight sum                   11         1         2         4
+  precision                     1         1         1         1
+
+fight
+  mean                          0         0         0      0.25
+  std. dev.                0.1667    0.1667    0.1667     0.433
+  weight sum                   11         1         2         4
+  precision                     1         1         1         1
+
+clutched
+  mean                     0.0645         0         0    0.1775
+  std. dev.                0.2041    0.1183    0.1183    0.3074
+  weight sum                   11         1         2         4
+  precision                  0.71      0.71      0.71      0.71
+
+dilapidated
+  mean                          0         0         0      0.25
+  std. dev.                0.1667    0.1667    0.1667     0.433
+  weight sum                   11         1         2         4
+  precision                     1         1         1         1
+
+apps_advantage
+  mean                     0.0909         0         0         0
+  std. dev.                0.2875    0.1667    0.1667    0.1667
+  weight sum                   11         1         2         4
+  precision                     1         1         1         1
+
+henriques_money
+  mean                     0.0909         0         0         0
+  std. dev.                0.2875    0.1667    0.1667    0.1667
+  weight sum                   11         1         2         4
+  precision                     1         1         1         1
+
+thousands_migrants
+  mean                          0         0      0.71         0
+  std. dev.                0.1183    0.1183    0.1183    0.1183
+  weight sum                   11         1         2         4
+  precision                  0.71      0.71      0.71      0.71
+
+coverage_wikileaks
+  mean                     0.0909         0         0         0
+  std. dev.                0.2875    0.1667    0.1667    0.1667
+  weight sum                   11         1         2         4
+  precision                     1         1         1         1
+
+prices_surging
+  mean                          0         0         0      0.25
+  std. dev.                0.1667    0.1667    0.1667     0.433
+  weight sum                   11         1         2         4
+  precision                     1         1         1         1
+
+recently_ve
+  mean                          0         0         0      0.25
+  std. dev.                0.1667    0.1667    0.1667     0.433
+  weight sum                   11         1         2         4
+  precision                     1         1         1         1
+
+pollution_levels
+  mean                     0.0909         0         0         0
+  std. dev.                0.2875    0.1667    0.1667    0.1667
+  weight sum                   11         1         2         4
+  precision                     1         1         1         1
+
+browner
+  mean                     0.0909         0         0         0
+  std. dev.                0.2875    0.1667    0.1667    0.1667
+  weight sum                   11         1         2         4
+  precision                     1         1         1         1
+
+growing_conflicts
+  mean                     0.0909         0         0         0
+  std. dev.                0.2875    0.1667    0.1667    0.1667
+  weight sum                   11         1         2         4
+  precision                     1         1         1         1
+
+safe_blasted
+  mean                     0.0909         0         0         0
+  std. dev.                0.2875    0.1667    0.1667    0.1667
+  weight sum                   11         1         2         4
+  precision                     1         1         1         1
+
+users_state
+  mean                          0         0         0      0.25
+  std. dev.                0.1667    0.1667    0.1667     0.433
+  weight sum                   11         1         2         4
+  precision                     1         1         1         1
+
+helicopters
+  mean                     0.0909         0         0         0
+  std. dev.                0.2875    0.1667    0.1667    0.1667
+  weight sum                   11         1         2         4
+  precision                     1         1         1         1
+
+spokeswoman_defended
+  mean                          0         0         0      0.25
+  std. dev.                0.1667    0.1667    0.1667     0.433
+  weight sum                   11         1         2         4
+  precision                     1         1         1         1
+
+broken
+  mean                     0.0909         0         0         0
+  std. dev.                0.2875    0.1667    0.1667    0.1667
+  weight sum                   11         1         2         4
+  precision                     1         1         1         1
+
+part_growth
+  mean                          0         1         0         0
+  std. dev.                0.1667    0.1667    0.1667    0.1667
+  weight sum                   11         1         2         4
+  precision                     1         1         1         1
+
+reaction
+  mean                     0.0909         0         0         0
+  std. dev.                0.2875    0.1667    0.1667    0.1667
+  weight sum                   11         1         2         4
+  precision                     1         1         1         1
+
+
+
+Time taken to build model: 0.03 seconds
+Time taken to test model on training data: 0.06 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances          18              100      %
+Incorrectly Classified Instances         0                0      %
+Kappa statistic                          1     
+Mean absolute error                      0.0083
+Root mean squared error                  0.0202
+Relative absolute error                  2.7877 %
+Root relative squared error              5.3736 %
+Total Number of Instances               18     
+
+
+=== Confusion Matrix ===
+
+  a  b  c  d   <-- classified as
+ 11  0  0  0 |  a = cluster_2
+  0  1  0  0 |  b = cluster_4
+  0  0  2  0 |  c = cluster_3
+  0  0  0  4 |  d = cluster_1
+
+
+
+=== Stratified cross-validation ===
+
+Correctly Classified Instances          12               66.6667 %
+Incorrectly Classified Instances         6               33.3333 %
+Kappa statistic                          0.2848
+Mean absolute error                      0.178 
+Root mean squared error                  0.381 
+Relative absolute error                 57.9662 %
+Root relative squared error             98.223  %
+Total Number of Instances               18     
+
+
+=== Confusion Matrix ===
+
+  a  b  c  d   <-- classified as
+ 10  0  0  1 |  a = cluster_2
+  1  0  0  0 |  b = cluster_4
+  0  0  2  0 |  c = cluster_3
+  4  0  0  0 |  d = cluster_1
+

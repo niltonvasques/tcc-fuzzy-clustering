@@ -1,0 +1,62 @@
+
+Options: -K 2 -W 0 -A "weka.core.neighboursearch.LinearNNSearch -A "weka.core.EuclideanDistance -R first-last"" 
+
+IB1 instance-based classifier
+using 2 nearest neighbour(s) for classification
+
+
+Time taken to build model: 0.02 seconds
+Time taken to test model on training data: 0.07 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances           8               44.4444 %
+Incorrectly Classified Instances        10               55.5556 %
+Kappa statistic                          0.1964
+Mean absolute error                      0.1215
+Root mean squared error                  0.2517
+Relative absolute error                 65.1175 %
+Root relative squared error             83.2436 %
+Total Number of Instances               18     
+
+
+=== Confusion Matrix ===
+
+ a b c d e f g h i   <-- classified as
+ 0 0 0 0 0 2 0 0 0 | a = cluster_206
+ 0 0 0 0 0 3 0 0 0 | b = cluster_210
+ 0 0 0 0 0 0 0 0 0 | c = cluster_209
+ 0 0 0 0 0 1 0 0 0 | d = cluster_211
+ 0 0 0 0 0 1 0 0 0 | e = cluster_208
+ 0 0 0 0 0 6 0 0 0 | f = cluster_204
+ 0 0 0 0 0 0 2 0 0 | g = cluster_203
+ 0 0 0 0 0 1 0 0 0 | h = cluster_207
+ 0 0 0 0 0 2 0 0 0 | i = cluster_205
+
+
+
+=== Stratified cross-validation ===
+
+Correctly Classified Instances           6               33.3333 %
+Incorrectly Classified Instances        12               66.6667 %
+Kappa statistic                          0     
+Mean absolute error                      0.1631
+Root mean squared error                  0.3251
+Relative absolute error                 84.5987 %
+Root relative squared error            103.9634 %
+Total Number of Instances               18     
+
+
+=== Confusion Matrix ===
+
+ a b c d e f g h i   <-- classified as
+ 0 0 0 0 0 2 0 0 0 | a = cluster_206
+ 0 0 0 0 0 3 0 0 0 | b = cluster_210
+ 0 0 0 0 0 0 0 0 0 | c = cluster_209
+ 0 0 0 0 0 1 0 0 0 | d = cluster_211
+ 0 0 0 0 0 1 0 0 0 | e = cluster_208
+ 0 0 0 0 0 6 0 0 0 | f = cluster_204
+ 0 0 0 0 0 2 0 0 0 | g = cluster_203
+ 0 0 0 0 0 1 0 0 0 | h = cluster_207
+ 0 0 0 0 0 2 0 0 0 | i = cluster_205
+

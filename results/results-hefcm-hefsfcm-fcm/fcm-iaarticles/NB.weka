@@ -1,0 +1,172 @@
+
+Naive Bayes Classifier
+
+                           Class
+Attribute             cluster_14 cluster_16 cluster_15
+                          (0.74)     (0.21)     (0.05)
+=======================================================
+applied_similarity
+  mean                          0      0.125          0
+  std. dev.                0.1667     0.3307     0.1667
+  weight sum                   31          8          1
+  precision                     1          1          1
+
+fabio
+  mean                     0.0499     0.1692          0
+  std. dev.                0.1095     0.2036     0.0322
+  weight sum                   31          8          1
+  precision                0.1933     0.1933     0.1933
+
+check_tendencies
+  mean                     0.0323          0          0
+  std. dev.                0.1767     0.1667     0.1667
+  weight sum                   31          8          1
+  precision                     1          1          1
+
+denotes_signi
+  mean                     0.0323          0          0
+  std. dev.                0.1767     0.1667     0.1667
+  weight sum                   31          8          1
+  precision                     1          1          1
+
+defined_interval
+  mean                     0.0458          0          0
+  std. dev.                0.1744     0.1183     0.1183
+  weight sum                   31          8          1
+  precision                  0.71       0.71       0.71
+
+curves_fuzzy
+  mean                     0.0323          0          0
+  std. dev.                0.1767     0.1667     0.1667
+  weight sum                   31          8          1
+  precision                     1          1          1
+
+layers_upper
+  mean                     0.0323          0          0
+  std. dev.                0.1767     0.1667     0.1667
+  weight sum                   31          8          1
+  precision                     1          1          1
+
+algorithm_developed
+  mean                     0.0187     0.0725       0.58
+  std. dev.                0.1025     0.1918     0.0967
+  weight sum                   31          8          1
+  precision                  0.58       0.58       0.58
+
+based_thesauri
+  mean                     0.0323          0          0
+  std. dev.                0.1767     0.1667     0.1667
+  weight sum                   31          8          1
+  precision                     1          1          1
+
+generated_wang
+  mean                     0.0458          0          0
+  std. dev.                0.1744     0.1183     0.1183
+  weight sum                   31          8          1
+  precision                  0.71       0.71       0.71
+
+theory_linguistic
+  mean                     0.0323          0          0
+  std. dev.                0.1767     0.1667     0.1667
+  weight sum                   31          8          1
+  precision                     1          1          1
+
+reach_support
+  mean                     0.0323          0          0
+  std. dev.                0.1767     0.1667     0.1667
+  weight sum                   31          8          1
+  precision                     1          1          1
+
+sc
+  mean                     0.0248     0.0963          0
+  std. dev.                 0.136     0.1925     0.0321
+  weight sum                   31          8          1
+  precision                0.1925     0.1925     0.1925
+
+learning_vector
+  mean                     0.0331          0     0.5133
+  std. dev.                 0.142     0.0428     0.0428
+  weight sum                   31          8          1
+  precision                0.2567     0.2567     0.2567
+
+extension_ofthe
+  mean                     0.0323          0          0
+  std. dev.                0.1767     0.1667     0.1667
+  weight sum                   31          8          1
+  precision                     1          1          1
+
+points_calculations
+  mean                     0.0323          0          0
+  std. dev.                0.1767     0.1667     0.1667
+  weight sum                   31          8          1
+  precision                     1          1          1
+
+reported_carpineto
+  mean                     0.0323          0          0
+  std. dev.                0.1767     0.1667     0.1667
+  weight sum                   31          8          1
+  precision                     1          1          1
+
+structures_language
+  mean                          0      0.125          0
+  std. dev.                0.1667     0.3307     0.1667
+  weight sum                   31          8          1
+  precision                     1          1          1
+
+based_standard
+  mean                     0.0458          0          0
+  std. dev.                0.1744     0.1183     0.1183
+  weight sum                   31          8          1
+  precision                  0.71       0.71       0.71
+
+categories_ratios
+  mean                     0.0323          0          0
+  std. dev.                0.1767     0.1667     0.1667
+  weight sum                   31          8          1
+  precision                     1          1          1
+
+
+
+Time taken to build model: 0.04 seconds
+Time taken to test model on training data: 0.09 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances          34               85      %
+Incorrectly Classified Instances         6               15      %
+Kappa statistic                          0.5819
+Mean absolute error                      0.1229
+Root mean squared error                  0.2776
+Relative absolute error                 48.4973 %
+Root relative squared error             80.1104 %
+Total Number of Instances               40     
+
+
+=== Confusion Matrix ===
+
+  a  b  c   <-- classified as
+ 28  3  0 |  a = cluster_14
+  3  5  0 |  b = cluster_16
+  0  0  1 |  c = cluster_15
+
+
+
+=== Stratified cross-validation ===
+
+Correctly Classified Instances          29               72.5    %
+Incorrectly Classified Instances        11               27.5    %
+Kappa statistic                          0.1287
+Mean absolute error                      0.2169
+Root mean squared error                  0.3951
+Relative absolute error                 84.5856 %
+Root relative squared error            113.2347 %
+Total Number of Instances               40     
+
+
+=== Confusion Matrix ===
+
+  a  b  c   <-- classified as
+ 27  3  1 |  a = cluster_14
+  6  2  0 |  b = cluster_16
+  1  0  0 |  c = cluster_15
+

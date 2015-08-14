@@ -1,0 +1,43 @@
+@RELATION /home/niltonvasques/Documents/ufba/tcc/results/results-hefcm-hefsfcm-fcm/hefcm-newyork
+
+@ATTRIBUTE million_sales	NUMERIC
+@ATTRIBUTE fight	NUMERIC
+@ATTRIBUTE clutched	NUMERIC
+@ATTRIBUTE dilapidated	NUMERIC
+@ATTRIBUTE apps_advantage	NUMERIC
+@ATTRIBUTE henriques_money	NUMERIC
+@ATTRIBUTE thousands_migrants	NUMERIC
+@ATTRIBUTE coverage_wikileaks	NUMERIC
+@ATTRIBUTE prices_surging	NUMERIC
+@ATTRIBUTE recently_ve	NUMERIC
+@ATTRIBUTE pollution_levels	NUMERIC
+@ATTRIBUTE browner	NUMERIC
+@ATTRIBUTE growing_conflicts	NUMERIC
+@ATTRIBUTE safe_blasted	NUMERIC
+@ATTRIBUTE users_state	NUMERIC
+@ATTRIBUTE helicopters	NUMERIC
+@ATTRIBUTE spokeswoman_defended	NUMERIC
+@ATTRIBUTE broken	NUMERIC
+@ATTRIBUTE part_growth	NUMERIC
+@ATTRIBUTE reaction	NUMERIC
+@ATTRIBUTE class 	{cluster_100,cluster_119,cluster_98,cluster_117,cluster_99,cluster_97,cluster_95,cluster_118,cluster_96,cluster_120}
+
+@DATA
+0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,cluster_96
+0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,cluster_95
+0.0,0.0,0.0,0.0,0.0,0.0,0.71,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,cluster_95
+0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,cluster_95
+0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,cluster_96
+0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,cluster_95
+0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,cluster_96
+0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,1.0,0.0,0.0,0.0,cluster_96
+1.0,0.0,0.71,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,cluster_96
+0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,cluster_96
+0.0,0.0,0.0,0.0,0.0,0.0,0.71,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,cluster_95
+0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,cluster_95
+0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,cluster_96
+0.0,0.0,0.71,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,cluster_96
+0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,cluster_95
+0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,cluster_95
+0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,cluster_95
+0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,cluster_95

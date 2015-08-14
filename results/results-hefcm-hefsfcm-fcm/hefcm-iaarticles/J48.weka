@@ -1,0 +1,79 @@
+
+Options: -C 0.25 -M 2 
+
+J48 pruned tree
+------------------
+
+learning_vector <= 0.15
+|   sc <= 0.08: cluster_101 (35.0/4.0)
+|   sc > 0.08: cluster_103 (3.0/1.0)
+learning_vector > 0.15: cluster_104 (2.0)
+
+Number of Leaves  : 	3
+
+Size of the tree : 	5
+
+
+Time taken to build model: 0.12 seconds
+Time taken to test model on training data: 0.05 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances          35               87.5    %
+Incorrectly Classified Instances         5               12.5    %
+Kappa statistic                          0.5633
+Mean absolute error                      0.0324
+Root mean squared error                  0.1272
+Relative absolute error                 43.9183 %
+Root relative squared error             75.3837 %
+Total Number of Instances               40     
+
+
+=== Confusion Matrix ===
+
+  a  b  c  d  e  f  g  h  i  j  k  l  m   <-- classified as
+ 31  0  1  0  0  0  0  0  0  0  0  0  0 |  a = cluster_101
+  0  0  0  0  0  0  0  0  0  0  0  0  0 |  b = cluster_109
+  4  0  2  0  0  0  0  0  0  0  0  0  0 |  c = cluster_103
+  0  0  0  0  0  0  0  0  0  0  0  0  0 |  d = cluster_127
+  0  0  0  0  0  0  0  0  0  0  0  0  0 |  e = cluster_112
+  0  0  0  0  0  0  0  0  0  0  0  0  0 |  f = cluster_138
+  0  0  0  0  0  0  0  0  0  0  0  0  0 |  g = cluster_139
+  0  0  0  0  0  0  0  0  0  0  0  0  0 |  h = cluster_140
+  0  0  0  0  0  0  0  0  0  0  0  0  0 |  i = cluster_128
+  0  0  0  0  0  0  0  0  0  0  0  0  0 |  j = cluster_125
+  0  0  0  0  0  0  0  0  0  0  2  0  0 |  k = cluster_104
+  0  0  0  0  0  0  0  0  0  0  0  0  0 |  l = cluster_137
+  0  0  0  0  0  0  0  0  0  0  0  0  0 |  m = cluster_110
+
+
+
+=== Stratified cross-validation ===
+
+Correctly Classified Instances          31               77.5    %
+Incorrectly Classified Instances         9               22.5    %
+Kappa statistic                         -0.0286
+Mean absolute error                      0.0466
+Root mean squared error                  0.174 
+Relative absolute error                 61.3216 %
+Root relative squared error            101.4334 %
+Total Number of Instances               40     
+
+
+=== Confusion Matrix ===
+
+  a  b  c  d  e  f  g  h  i  j  k  l  m   <-- classified as
+ 31  0  0  0  0  0  0  0  0  0  1  0  0 |  a = cluster_101
+  0  0  0  0  0  0  0  0  0  0  0  0  0 |  b = cluster_109
+  6  0  0  0  0  0  0  0  0  0  0  0  0 |  c = cluster_103
+  0  0  0  0  0  0  0  0  0  0  0  0  0 |  d = cluster_127
+  0  0  0  0  0  0  0  0  0  0  0  0  0 |  e = cluster_112
+  0  0  0  0  0  0  0  0  0  0  0  0  0 |  f = cluster_138
+  0  0  0  0  0  0  0  0  0  0  0  0  0 |  g = cluster_139
+  0  0  0  0  0  0  0  0  0  0  0  0  0 |  h = cluster_140
+  0  0  0  0  0  0  0  0  0  0  0  0  0 |  i = cluster_128
+  0  0  0  0  0  0  0  0  0  0  0  0  0 |  j = cluster_125
+  2  0  0  0  0  0  0  0  0  0  0  0  0 |  k = cluster_104
+  0  0  0  0  0  0  0  0  0  0  0  0  0 |  l = cluster_137
+  0  0  0  0  0  0  0  0  0  0  0  0  0 |  m = cluster_110
+

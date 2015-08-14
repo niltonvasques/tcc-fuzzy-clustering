@@ -1,0 +1,59 @@
+
+Options: -C 0.25 -M 2 
+
+J48 pruned tree
+------------------
+
+sc <= 0
+|   fabio <= 0.19: cluster_14 (32.0/4.0)
+|   fabio > 0.19: cluster_16 (3.0/1.0)
+sc > 0: cluster_16 (5.0/2.0)
+
+Number of Leaves  : 	3
+
+Size of the tree : 	5
+
+
+Time taken to build model: 0.13 seconds
+Time taken to test model on training data: 0.03 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances          33               82.5    %
+Incorrectly Classified Instances         7               17.5    %
+Kappa statistic                          0.4853
+Mean absolute error                      0.182 
+Root mean squared error                  0.3017
+Relative absolute error                 71.8036 %
+Root relative squared error             87.0556 %
+Total Number of Instances               40     
+
+
+=== Confusion Matrix ===
+
+  a  b  c   <-- classified as
+ 28  3  0 |  a = cluster_14
+  3  5  0 |  b = cluster_16
+  1  0  0 |  c = cluster_15
+
+
+
+=== Stratified cross-validation ===
+
+Correctly Classified Instances          29               72.5    %
+Incorrectly Classified Instances        11               27.5    %
+Kappa statistic                          0.1165
+Mean absolute error                      0.2372
+Root mean squared error                  0.3718
+Relative absolute error                 92.4916 %
+Root relative squared error            106.5651 %
+Total Number of Instances               40     
+
+
+=== Confusion Matrix ===
+
+  a  b  c   <-- classified as
+ 27  4  0 |  a = cluster_14
+  6  2  0 |  b = cluster_16
+  1  0  0 |  c = cluster_15
+

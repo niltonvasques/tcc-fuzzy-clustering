@@ -1,0 +1,180 @@
+
+Naive Bayes Classifier
+
+                           Class
+Attribute             cluster_40 cluster_30 cluster_37 cluster_39 cluster_38 cluster_32 cluster_29
+                          (0.02)      (0.7)     (0.02)     (0.02)     (0.02)     (0.15)     (0.06)
+===================================================================================================
+applied_similarity
+  mean                          0          0          0          0          0     0.1667          0
+  std. dev.                0.1667     0.1667     0.1667     0.1667     0.1667     0.3727     0.1667
+  weight sum                    0         32          0          0          0          6          2
+  precision                     1          1          1          1          1          1          1
+
+fabio
+  mean                          0     0.0665          0          0          0     0.1289          0
+  std. dev.                0.0322     0.1418     0.0322     0.0322     0.0322     0.1441     0.0322
+  weight sum                    0         32          0          0          0          6          2
+  precision                0.1933     0.1933     0.1933     0.1933     0.1933     0.1933     0.1933
+
+check_tendencies
+  mean                          0     0.0313          0          0          0          0          0
+  std. dev.                0.1667      0.174     0.1667     0.1667     0.1667     0.1667     0.1667
+  weight sum                    0         32          0          0          0          6          2
+  precision                     1          1          1          1          1          1          1
+
+denotes_signi
+  mean                          0     0.0313          0          0          0          0          0
+  std. dev.                0.1667      0.174     0.1667     0.1667     0.1667     0.1667     0.1667
+  weight sum                    0         32          0          0          0          6          2
+  precision                     1          1          1          1          1          1          1
+
+defined_interval
+  mean                          0     0.0444          0          0          0          0          0
+  std. dev.                0.1183     0.1719     0.1183     0.1183     0.1183     0.1183     0.1183
+  weight sum                    0         32          0          0          0          6          2
+  precision                  0.71       0.71       0.71       0.71       0.71       0.71       0.71
+
+curves_fuzzy
+  mean                          0     0.0313          0          0          0          0          0
+  std. dev.                0.1667      0.174     0.1667     0.1667     0.1667     0.1667     0.1667
+  weight sum                    0         32          0          0          0          6          2
+  precision                     1          1          1          1          1          1          1
+
+layers_upper
+  mean                          0     0.0313          0          0          0          0          0
+  std. dev.                0.1667      0.174     0.1667     0.1667     0.1667     0.1667     0.1667
+  weight sum                    0         32          0          0          0          6          2
+  precision                     1          1          1          1          1          1          1
+
+algorithm_developed
+  mean                          0     0.0363          0          0          0          0       0.29
+  std. dev.                0.0967     0.1404     0.0967     0.0967     0.0967     0.0967       0.29
+  weight sum                    0         32          0          0          0          6          2
+  precision                  0.58       0.58       0.58       0.58       0.58       0.58       0.58
+
+based_thesauri
+  mean                          0     0.0313          0          0          0          0          0
+  std. dev.                0.1667      0.174     0.1667     0.1667     0.1667     0.1667     0.1667
+  weight sum                    0         32          0          0          0          6          2
+  precision                     1          1          1          1          1          1          1
+
+generated_wang
+  mean                          0     0.0444          0          0          0          0          0
+  std. dev.                0.1183     0.1719     0.1183     0.1183     0.1183     0.1183     0.1183
+  weight sum                    0         32          0          0          0          6          2
+  precision                  0.71       0.71       0.71       0.71       0.71       0.71       0.71
+
+theory_linguistic
+  mean                          0     0.0313          0          0          0          0          0
+  std. dev.                0.1667      0.174     0.1667     0.1667     0.1667     0.1667     0.1667
+  weight sum                    0         32          0          0          0          6          2
+  precision                     1          1          1          1          1          1          1
+
+reach_support
+  mean                          0     0.0313          0          0          0          0          0
+  std. dev.                0.1667      0.174     0.1667     0.1667     0.1667     0.1667     0.1667
+  weight sum                    0         32          0          0          0          6          2
+  precision                     1          1          1          1          1          1          1
+
+sc
+  mean                          0     0.0241          0          0          0     0.1283          0
+  std. dev.                0.0321      0.134     0.0321     0.0321     0.0321     0.2128     0.0321
+  weight sum                    0         32          0          0          0          6          2
+  precision                0.1925     0.1925     0.1925     0.1925     0.1925     0.1925     0.1925
+
+learning_vector
+  mean                          0      0.008          0          0          0          0     0.6417
+  std. dev.                0.0428     0.0447     0.0428     0.0428     0.0428     0.0428     0.1283
+  weight sum                    0         32          0          0          0          6          2
+  precision                0.2567     0.2567     0.2567     0.2567     0.2567     0.2567     0.2567
+
+extension_ofthe
+  mean                          0     0.0313          0          0          0          0          0
+  std. dev.                0.1667      0.174     0.1667     0.1667     0.1667     0.1667     0.1667
+  weight sum                    0         32          0          0          0          6          2
+  precision                     1          1          1          1          1          1          1
+
+points_calculations
+  mean                          0     0.0313          0          0          0          0          0
+  std. dev.                0.1667      0.174     0.1667     0.1667     0.1667     0.1667     0.1667
+  weight sum                    0         32          0          0          0          6          2
+  precision                     1          1          1          1          1          1          1
+
+reported_carpineto
+  mean                          0     0.0313          0          0          0          0          0
+  std. dev.                0.1667      0.174     0.1667     0.1667     0.1667     0.1667     0.1667
+  weight sum                    0         32          0          0          0          6          2
+  precision                     1          1          1          1          1          1          1
+
+structures_language
+  mean                          0          0          0          0          0     0.1667          0
+  std. dev.                0.1667     0.1667     0.1667     0.1667     0.1667     0.3727     0.1667
+  weight sum                    0         32          0          0          0          6          2
+  precision                     1          1          1          1          1          1          1
+
+based_standard
+  mean                          0     0.0444          0          0          0          0          0
+  std. dev.                0.1183     0.1719     0.1183     0.1183     0.1183     0.1183     0.1183
+  weight sum                    0         32          0          0          0          6          2
+  precision                  0.71       0.71       0.71       0.71       0.71       0.71       0.71
+
+categories_ratios
+  mean                          0     0.0313          0          0          0          0          0
+  std. dev.                0.1667      0.174     0.1667     0.1667     0.1667     0.1667     0.1667
+  weight sum                    0         32          0          0          0          6          2
+  precision                     1          1          1          1          1          1          1
+
+
+
+Time taken to build model: 0.05 seconds
+Time taken to test model on training data: 0.18 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances          36               90      %
+Incorrectly Classified Instances         4               10      %
+Kappa statistic                          0.6694
+Mean absolute error                      0.0835
+Root mean squared error                  0.1835
+Relative absolute error                 70.797  %
+Root relative squared error             82.469  %
+Total Number of Instances               40     
+
+
+=== Confusion Matrix ===
+
+  a  b  c  d  e  f  g   <-- classified as
+  0  0  0  0  0  0  0 |  a = cluster_40
+  0 31  0  0  0  1  0 |  b = cluster_30
+  0  0  0  0  0  0  0 |  c = cluster_37
+  0  0  0  0  0  0  0 |  d = cluster_39
+  0  0  0  0  0  0  0 |  e = cluster_38
+  0  3  0  0  0  3  0 |  f = cluster_32
+  0  0  0  0  0  0  2 |  g = cluster_29
+
+
+
+=== Stratified cross-validation ===
+
+Correctly Classified Instances          33               82.5    %
+Incorrectly Classified Instances         7               17.5    %
+Kappa statistic                          0.3103
+Mean absolute error                      0.1217
+Root mean squared error                  0.2317
+Relative absolute error                100.6128 %
+Root relative squared error            102.7979 %
+Total Number of Instances               40     
+
+
+=== Confusion Matrix ===
+
+  a  b  c  d  e  f  g   <-- classified as
+  0  0  0  0  0  0  0 |  a = cluster_40
+  0 31  0  0  0  1  0 |  b = cluster_30
+  0  0  0  0  0  0  0 |  c = cluster_37
+  0  0  0  0  0  0  0 |  d = cluster_39
+  0  0  0  0  0  0  0 |  e = cluster_38
+  0  6  0  0  0  0  0 |  f = cluster_32
+  0  0  0  0  0  0  2 |  g = cluster_29
+

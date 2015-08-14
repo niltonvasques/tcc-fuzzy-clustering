@@ -1,0 +1,67 @@
+
+Options: -C 0.25 -M 2 
+
+J48 pruned tree
+------------------
+
+learning_vector <= 0.15
+|   sc <= 0.08: cluster_30 (35.0/4.0)
+|   sc > 0.08: cluster_32 (3.0/1.0)
+learning_vector > 0.15: cluster_29 (2.0)
+
+Number of Leaves  : 	3
+
+Size of the tree : 	5
+
+
+Time taken to build model: 0.14 seconds
+Time taken to test model on training data: 0.05 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances          35               87.5    %
+Incorrectly Classified Instances         5               12.5    %
+Kappa statistic                          0.5633
+Mean absolute error                      0.0601
+Root mean squared error                  0.1734
+Relative absolute error                 50.9917 %
+Root relative squared error             77.9289 %
+Total Number of Instances               40     
+
+
+=== Confusion Matrix ===
+
+  a  b  c  d  e  f  g   <-- classified as
+  0  0  0  0  0  0  0 |  a = cluster_40
+  0 31  0  0  0  1  0 |  b = cluster_30
+  0  0  0  0  0  0  0 |  c = cluster_37
+  0  0  0  0  0  0  0 |  d = cluster_39
+  0  0  0  0  0  0  0 |  e = cluster_38
+  0  4  0  0  0  2  0 |  f = cluster_32
+  0  0  0  0  0  0  2 |  g = cluster_29
+
+
+
+=== Stratified cross-validation ===
+
+Correctly Classified Instances          31               77.5    %
+Incorrectly Classified Instances         9               22.5    %
+Kappa statistic                         -0.0286
+Mean absolute error                      0.0865
+Root mean squared error                  0.2371
+Relative absolute error                 71.5533 %
+Root relative squared error            105.1705 %
+Total Number of Instances               40     
+
+
+=== Confusion Matrix ===
+
+  a  b  c  d  e  f  g   <-- classified as
+  0  0  0  0  0  0  0 |  a = cluster_40
+  0 31  0  0  0  0  1 |  b = cluster_30
+  0  0  0  0  0  0  0 |  c = cluster_37
+  0  0  0  0  0  0  0 |  d = cluster_39
+  0  0  0  0  0  0  0 |  e = cluster_38
+  0  6  0  0  0  0  0 |  f = cluster_32
+  0  2  0  0  0  0  0 |  g = cluster_29
+

@@ -1,0 +1,91 @@
+Zero Weights processed. Default weights will be used
+WARNING: training data in only one class. See README for details.
+Total nSV = 0
+WARNING: training data in only one class. See README for details.
+Total nSV = 0
+WARNING: training data in only one class. See README for details.
+Total nSV = 0
+WARNING: training data in only one class. See README for details.
+Total nSV = 0
+WARNING: training data in only one class. See README for details.
+Total nSV = 0
+WARNING: training data in only one class. See README for details.
+Total nSV = 0
+WARNING: training data in only one class. See README for details.
+Total nSV = 0
+WARNING: training data in only one class. See README for details.
+Total nSV = 0
+WARNING: training data in only one class. See README for details.
+Total nSV = 0
+WARNING: training data in only one class. See README for details.
+Total nSV = 0
+WARNING: training data in only one class. See README for details.
+Total nSV = 0
+
+Options: -S 0 -K 1 -D 3 -G 0.0 -R 0.0 -N 0.5 -M 40.0 -C 2.0 -E 0.001 -P 0.1 -seed 1 
+
+LibSVM wrapper, original code by Yasser EL-Manzalawy (= WLSVM)
+
+Time taken to build model: 0.76 seconds
+Time taken to test model on training data: 0.53 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances        2000              100      %
+Incorrectly Classified Instances         0                0      %
+Kappa statistic                          1     
+Mean absolute error                      0     
+Root mean squared error                  0     
+Relative absolute error                  0      %
+Root relative squared error              0      %
+Total Number of Instances             2000     
+
+
+=== Confusion Matrix ===
+
+    a    b    c    d    e    f    g    h    i    j    k    l    m   <-- classified as
+    0    0    0    0    0    0    0    0    0    0    0    0    0 |    a = cluster_104
+    0    0    0    0    0    0    0    0    0    0    0    0    0 |    b = cluster_62
+    0    0    0    0    0    0    0    0    0    0    0    0    0 |    c = cluster_63
+    0    0    0    0    0    0    0    0    0    0    0    0    0 |    d = cluster_101
+    0    0    0    0    0    0    0    0    0    0    0    0    0 |    e = cluster_64
+    0    0    0    0    0    0    0    0    0    0    0    0    0 |    f = cluster_83
+    0    0    0    0    0    0    0    0    0    0    0    0    0 |    g = cluster_103
+    0    0    0    0    0    0    0    0    0    0    0    0    0 |    h = cluster_82
+    0    0    0    0    0    0    0    0    0    0    0    0    0 |    i = cluster_61
+    0    0    0    0    0    0    0    0    0 2000    0    0    0 |    j = cluster_56
+    0    0    0    0    0    0    0    0    0    0    0    0    0 |    k = cluster_102
+    0    0    0    0    0    0    0    0    0    0    0    0    0 |    l = cluster_84
+    0    0    0    0    0    0    0    0    0    0    0    0    0 |    m = cluster_81
+
+
+
+=== Stratified cross-validation ===
+
+Correctly Classified Instances        2000              100      %
+Incorrectly Classified Instances         0                0      %
+Kappa statistic                          1     
+Mean absolute error                      0     
+Root mean squared error                  0     
+Relative absolute error                  0      %
+Root relative squared error              0      %
+Total Number of Instances             2000     
+
+
+=== Confusion Matrix ===
+
+    a    b    c    d    e    f    g    h    i    j    k    l    m   <-- classified as
+    0    0    0    0    0    0    0    0    0    0    0    0    0 |    a = cluster_104
+    0    0    0    0    0    0    0    0    0    0    0    0    0 |    b = cluster_62
+    0    0    0    0    0    0    0    0    0    0    0    0    0 |    c = cluster_63
+    0    0    0    0    0    0    0    0    0    0    0    0    0 |    d = cluster_101
+    0    0    0    0    0    0    0    0    0    0    0    0    0 |    e = cluster_64
+    0    0    0    0    0    0    0    0    0    0    0    0    0 |    f = cluster_83
+    0    0    0    0    0    0    0    0    0    0    0    0    0 |    g = cluster_103
+    0    0    0    0    0    0    0    0    0    0    0    0    0 |    h = cluster_82
+    0    0    0    0    0    0    0    0    0    0    0    0    0 |    i = cluster_61
+    0    0    0    0    0    0    0    0    0 2000    0    0    0 |    j = cluster_56
+    0    0    0    0    0    0    0    0    0    0    0    0    0 |    k = cluster_102
+    0    0    0    0    0    0    0    0    0    0    0    0    0 |    l = cluster_84
+    0    0    0    0    0    0    0    0    0    0    0    0    0 |    m = cluster_81
+

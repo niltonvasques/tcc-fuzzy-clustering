@@ -8,19 +8,19 @@ price_due_excel_locat <= 0
 |   verizon_broadband <= 0
 |   |   floor_level_servic_provid <= 0
 |   |   |   full_price <= 0
-|   |   |   |   standard_room <= 0: cluster_16 (38.0/19.0)
-|   |   |   |   standard_room > 0: cluster_14 (4.0)
-|   |   |   full_price > 0: cluster_14 (3.0)
-|   |   floor_level_servic_provid > 0: cluster_14 (2.0)
-|   verizon_broadband > 0: cluster_15 (2.0)
-price_due_excel_locat > 0: cluster_15 (2.0)
+|   |   |   |   standard_room <= 0: cluster_11 (38.0/19.0)
+|   |   |   |   standard_room > 0: cluster_13 (4.0)
+|   |   |   full_price > 0: cluster_13 (3.0)
+|   |   floor_level_servic_provid > 0: cluster_13 (2.0)
+|   verizon_broadband > 0: cluster_12 (2.0)
+price_due_excel_locat > 0: cluster_12 (2.0)
 
 Number of Leaves  : 	6
 
 Size of the tree : 	11
 
 
-Time taken to build model: 0.19 seconds
+Time taken to build model: 0.2 seconds
 Time taken to test model on training data: 0.06 seconds
 
 === Error on training data ===
@@ -38,9 +38,9 @@ Total Number of Instances               51
 === Confusion Matrix ===
 
   a  b  c   <-- classified as
- 19  0  0 |  a = cluster_16
-  8  4  0 |  b = cluster_15
- 11  0  9 |  c = cluster_14
+ 19  0  0 |  a = cluster_11
+  8  4  0 |  b = cluster_12
+ 11  0  9 |  c = cluster_13
 
 
 
@@ -59,7 +59,7 @@ Total Number of Instances               51
 === Confusion Matrix ===
 
   a  b  c   <-- classified as
- 18  1  0 |  a = cluster_16
- 12  0  0 |  b = cluster_15
- 17  0  3 |  c = cluster_14
+ 18  1  0 |  a = cluster_11
+ 12  0  0 |  b = cluster_12
+ 17  0  3 |  c = cluster_13
 

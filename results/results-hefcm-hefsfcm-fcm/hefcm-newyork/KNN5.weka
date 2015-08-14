@@ -1,0 +1,64 @@
+
+Options: -K 5 -W 0 -A "weka.core.neighboursearch.LinearNNSearch -A "weka.core.EuclideanDistance -R first-last"" 
+
+IB1 instance-based classifier
+using 5 nearest neighbour(s) for classification
+
+
+Time taken to build model: 0.02 seconds
+Time taken to test model on training data: 0.07 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances          10               55.5556 %
+Incorrectly Classified Instances         8               44.4444 %
+Kappa statistic                          0     
+Mean absolute error                      0.0884
+Root mean squared error                  0.2303
+Relative absolute error                 69.191  %
+Root relative squared error             98.578  %
+Total Number of Instances               18     
+
+
+=== Confusion Matrix ===
+
+  a  b  c  d  e  f  g  h  i  j   <-- classified as
+  0  0  0  0  0  0  0  0  0  0 |  a = cluster_100
+  0  0  0  0  0  0  0  0  0  0 |  b = cluster_119
+  0  0  0  0  0  0  0  0  0  0 |  c = cluster_98
+  0  0  0  0  0  0  0  0  0  0 |  d = cluster_117
+  0  0  0  0  0  0  0  0  0  0 |  e = cluster_99
+  0  0  0  0  0  0  0  0  0  0 |  f = cluster_97
+  0  0  0  0  0  0 10  0  0  0 |  g = cluster_95
+  0  0  0  0  0  0  0  0  0  0 |  h = cluster_118
+  0  0  0  0  0  0  8  0  0  0 |  i = cluster_96
+  0  0  0  0  0  0  0  0  0  0 |  j = cluster_120
+
+
+
+=== Stratified cross-validation ===
+
+Correctly Classified Instances          10               55.5556 %
+Incorrectly Classified Instances         8               44.4444 %
+Kappa statistic                          0     
+Mean absolute error                      0.098 
+Root mean squared error                  0.2371
+Relative absolute error                 75.2693 %
+Root relative squared error            100.4188 %
+Total Number of Instances               18     
+
+
+=== Confusion Matrix ===
+
+  a  b  c  d  e  f  g  h  i  j   <-- classified as
+  0  0  0  0  0  0  0  0  0  0 |  a = cluster_100
+  0  0  0  0  0  0  0  0  0  0 |  b = cluster_119
+  0  0  0  0  0  0  0  0  0  0 |  c = cluster_98
+  0  0  0  0  0  0  0  0  0  0 |  d = cluster_117
+  0  0  0  0  0  0  0  0  0  0 |  e = cluster_99
+  0  0  0  0  0  0  0  0  0  0 |  f = cluster_97
+  0  0  0  0  0  0 10  0  0  0 |  g = cluster_95
+  0  0  0  0  0  0  0  0  0  0 |  h = cluster_118
+  0  0  0  0  0  0  8  0  0  0 |  i = cluster_96
+  0  0  0  0  0  0  0  0  0  0 |  j = cluster_120
+

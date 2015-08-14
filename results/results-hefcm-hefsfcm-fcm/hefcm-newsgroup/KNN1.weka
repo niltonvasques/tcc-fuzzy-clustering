@@ -1,0 +1,70 @@
+
+Options: -K 7 -W 0 -A "weka.core.neighboursearch.LinearNNSearch -A "weka.core.EuclideanDistance -R first-last"" 
+
+IB1 instance-based classifier
+using 7 nearest neighbour(s) for classification
+
+
+Time taken to build model: 0.06 seconds
+Time taken to test model on training data: 4.27 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances        2000              100      %
+Incorrectly Classified Instances         0                0      %
+Kappa statistic                          1     
+Mean absolute error                      0     
+Root mean squared error                  0.0001
+Relative absolute error                  1.1637 %
+Root relative squared error              3.1713 %
+Total Number of Instances             2000     
+
+
+=== Confusion Matrix ===
+
+    a    b    c    d    e    f    g    h    i    j    k    l    m   <-- classified as
+    0    0    0    0    0    0    0    0    0    0    0    0    0 |    a = cluster_104
+    0    0    0    0    0    0    0    0    0    0    0    0    0 |    b = cluster_62
+    0    0    0    0    0    0    0    0    0    0    0    0    0 |    c = cluster_63
+    0    0    0    0    0    0    0    0    0    0    0    0    0 |    d = cluster_101
+    0    0    0    0    0    0    0    0    0    0    0    0    0 |    e = cluster_64
+    0    0    0    0    0    0    0    0    0    0    0    0    0 |    f = cluster_83
+    0    0    0    0    0    0    0    0    0    0    0    0    0 |    g = cluster_103
+    0    0    0    0    0    0    0    0    0    0    0    0    0 |    h = cluster_82
+    0    0    0    0    0    0    0    0    0    0    0    0    0 |    i = cluster_61
+    0    0    0    0    0    0    0    0    0 2000    0    0    0 |    j = cluster_56
+    0    0    0    0    0    0    0    0    0    0    0    0    0 |    k = cluster_102
+    0    0    0    0    0    0    0    0    0    0    0    0    0 |    l = cluster_84
+    0    0    0    0    0    0    0    0    0    0    0    0    0 |    m = cluster_81
+
+
+
+=== Stratified cross-validation ===
+
+Correctly Classified Instances        2000              100      %
+Incorrectly Classified Instances         0                0      %
+Kappa statistic                          1     
+Mean absolute error                      0     
+Root mean squared error                  0.0001
+Relative absolute error                  1.1509 %
+Root relative squared error              3.1615 %
+Total Number of Instances             2000     
+
+
+=== Confusion Matrix ===
+
+    a    b    c    d    e    f    g    h    i    j    k    l    m   <-- classified as
+    0    0    0    0    0    0    0    0    0    0    0    0    0 |    a = cluster_104
+    0    0    0    0    0    0    0    0    0    0    0    0    0 |    b = cluster_62
+    0    0    0    0    0    0    0    0    0    0    0    0    0 |    c = cluster_63
+    0    0    0    0    0    0    0    0    0    0    0    0    0 |    d = cluster_101
+    0    0    0    0    0    0    0    0    0    0    0    0    0 |    e = cluster_64
+    0    0    0    0    0    0    0    0    0    0    0    0    0 |    f = cluster_83
+    0    0    0    0    0    0    0    0    0    0    0    0    0 |    g = cluster_103
+    0    0    0    0    0    0    0    0    0    0    0    0    0 |    h = cluster_82
+    0    0    0    0    0    0    0    0    0    0    0    0    0 |    i = cluster_61
+    0    0    0    0    0    0    0    0    0 2000    0    0    0 |    j = cluster_56
+    0    0    0    0    0    0    0    0    0    0    0    0    0 |    k = cluster_102
+    0    0    0    0    0    0    0    0    0    0    0    0    0 |    l = cluster_84
+    0    0    0    0    0    0    0    0    0    0    0    0    0 |    m = cluster_81
+

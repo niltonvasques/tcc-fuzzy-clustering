@@ -1,0 +1,59 @@
+
+Options: -C 0.25 -M 2 
+
+J48 pruned tree
+------------------
+
+floor_level_servic_provid <= 0
+|   engin_perform_lack <= 0: cluster_118 (10.0/6.0)
+|   engin_perform_lack > 0: cluster_117 (2.0)
+floor_level_servic_provid > 0: cluster_119 (2.0)
+
+Number of Leaves  : 	3
+
+Size of the tree : 	5
+
+
+Time taken to build model: 0.08 seconds
+Time taken to test model on training data: 0.02 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances           8               57.1429 %
+Incorrectly Classified Instances         6               42.8571 %
+Kappa statistic                          0.3824
+Mean absolute error                      0.3143
+Root mean squared error                  0.3964
+Relative absolute error                 71.0127 %
+Root relative squared error             84.3004 %
+Total Number of Instances               14     
+
+
+=== Confusion Matrix ===
+
+ a b c   <-- classified as
+ 2 3 0 | a = cluster_119
+ 0 4 0 | b = cluster_118
+ 0 3 2 | c = cluster_117
+
+
+
+=== Stratified cross-validation ===
+
+Correctly Classified Instances           4               28.5714 %
+Incorrectly Classified Instances        10               71.4286 %
+Kappa statistic                         -0.0769
+Mean absolute error                      0.4703
+Root mean squared error                  0.5306
+Relative absolute error                101.7297 %
+Root relative squared error            108.0338 %
+Total Number of Instances               14     
+
+
+=== Confusion Matrix ===
+
+ a b c   <-- classified as
+ 2 2 1 | a = cluster_119
+ 0 0 4 | b = cluster_118
+ 1 2 2 | c = cluster_117
+

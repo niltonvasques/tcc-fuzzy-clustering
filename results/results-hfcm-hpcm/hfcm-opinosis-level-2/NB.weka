@@ -1,0 +1,172 @@
+
+Naive Bayes Classifier
+
+                                  Class
+Attribute                   cluster_119 cluster_118 cluster_117
+                                 (0.35)      (0.29)      (0.35)
+================================================================
+floor_level_servic_provid
+  mean                             0.284           0           0
+  std. dev.                       0.3478      0.1183      0.1183
+  weight sum                           5           4           5
+  precision                         0.71        0.71        0.71
+
+eee_laptop_big
+  mean                             0.142      0.1775           0
+  std. dev.                        0.284      0.3074      0.1183
+  weight sum                           5           4           5
+  precision                         0.71        0.71        0.71
+
+screen_luminesc
+  mean                                 0           0           0
+  std. dev.                       0.0017      0.0017      0.0017
+  weight sum                           5           4           5
+  precision                         0.01        0.01        0.01
+
+long_dai
+  mean                                 0           0        0.07
+  std. dev.                       0.0583      0.0583        0.14
+  weight sum                           5           4           5
+  precision                         0.35        0.35        0.35
+
+standard_room
+  mean                                 0       0.145       0.174
+  std. dev.                       0.0483      0.2511       0.348
+  weight sum                           5           4           5
+  precision                         0.29        0.29        0.29
+
+scrambl_egg
+  mean                                 0           0           0
+  std. dev.                       0.0017      0.0017      0.0017
+  weight sum                           5           4           5
+  precision                         0.01        0.01        0.01
+
+bmw_seri
+  mean                                 0           0           0
+  std. dev.                       0.0017      0.0017      0.0017
+  weight sum                           5           4           5
+  precision                         0.01        0.01        0.01
+
+price_due_excel_locat
+  mean                                 0           0           0
+  std. dev.                       0.0017      0.0017      0.0017
+  weight sum                           5           4           5
+  precision                         0.01        0.01        0.01
+
+featur_don
+  mean                                 0           0           0
+  std. dev.                       0.0017      0.0017      0.0017
+  weight sum                           5           4           5
+  precision                         0.01        0.01        0.01
+
+verizon_broadband
+  mean                                 0           0           0
+  std. dev.                       0.0017      0.0017      0.0017
+  weight sum                           5           4           5
+  precision                         0.01        0.01        0.01
+
+button_side
+  mean                                 0      0.2475           0
+  std. dev.                        0.165      0.4287       0.165
+  weight sum                           5           4           5
+  precision                         0.99        0.99        0.99
+
+locat_fisherman
+  mean                                 0           0           0
+  std. dev.                       0.0017      0.0017      0.0017
+  weight sum                           5           4           5
+  precision                         0.01        0.01        0.01
+
+tune_favorit_radio
+  mean                                 0        0.25           0
+  std. dev.                       0.1667       0.433      0.1667
+  weight sum                           5           4           5
+  precision                            1           1           1
+
+chemist_yd
+  mean                                 0           0           0
+  std. dev.                       0.0017      0.0017      0.0017
+  weight sum                           5           4           5
+  precision                         0.01        0.01        0.01
+
+alert_courteou
+  mean                                 0           0           0
+  std. dev.                       0.0017      0.0017      0.0017
+  weight sum                           5           4           5
+  precision                         0.01        0.01        0.01
+
+great_room_great
+  mean                                 0      0.1775       0.142
+  std. dev.                       0.1183      0.3074       0.284
+  weight sum                           5           4           5
+  precision                         0.71        0.71        0.71
+
+full_price
+  mean                             0.106      0.0663           0
+  std. dev.                        0.212      0.1147      0.0442
+  weight sum                           5           4           5
+  precision                        0.265       0.265       0.265
+
+engin_perform
+  mean                                 0           0           0
+  std. dev.                       0.0017      0.0017      0.0017
+  weight sum                           5           4           5
+  precision                         0.01        0.01        0.01
+
+engin_perform_lack
+  mean                                 0           0       0.232
+  std. dev.                       0.0967      0.0967      0.2841
+  weight sum                           5           4           5
+  precision                         0.58        0.58        0.58
+
+door_hit
+  mean                                 0           0           0
+  std. dev.                       0.0017      0.0017      0.0017
+  weight sum                           5           4           5
+  precision                         0.01        0.01        0.01
+
+
+
+Time taken to build model: 0.02 seconds
+Time taken to test model on training data: 0.05 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances           9               64.2857 %
+Incorrectly Classified Instances         5               35.7143 %
+Kappa statistic                          0.4531
+Mean absolute error                      0.2211
+Root mean squared error                  0.3569
+Relative absolute error                 49.9594 %
+Root relative squared error             75.8951 %
+Total Number of Instances               14     
+
+
+=== Confusion Matrix ===
+
+ a b c   <-- classified as
+ 5 0 0 | a = cluster_119
+ 1 2 1 | b = cluster_118
+ 3 0 2 | c = cluster_117
+
+
+
+=== Stratified cross-validation ===
+
+Correctly Classified Instances           4               28.5714 %
+Incorrectly Classified Instances        10               71.4286 %
+Kappa statistic                         -0.0938
+Mean absolute error                      0.4671
+Root mean squared error                  0.5993
+Relative absolute error                101.0371 %
+Root relative squared error            122.0361 %
+Total Number of Instances               14     
+
+
+=== Confusion Matrix ===
+
+ a b c   <-- classified as
+ 3 1 1 | a = cluster_119
+ 3 0 1 | b = cluster_118
+ 3 1 1 | c = cluster_117
+

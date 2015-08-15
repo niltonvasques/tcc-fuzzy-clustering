@@ -1,0 +1,50 @@
+
+Options: -K 1 -W 0 -A "weka.core.neighboursearch.LinearNNSearch -A "weka.core.EuclideanDistance -R first-last"" 
+
+IB1 instance-based classifier
+using 1 nearest neighbour(s) for classification
+
+
+Time taken to build model: 0.03 seconds
+Time taken to test model on training data: 0.04 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances          11               78.5714 %
+Incorrectly Classified Instances         3               21.4286 %
+Kappa statistic                          0.6744
+Mean absolute error                      0.2031
+Root mean squared error                  0.284 
+Relative absolute error                 45.8817 %
+Root relative squared error             60.3907 %
+Total Number of Instances               14     
+
+
+=== Confusion Matrix ===
+
+ a b c   <-- classified as
+ 5 0 0 | a = cluster_119
+ 1 3 0 | b = cluster_118
+ 2 0 3 | c = cluster_117
+
+
+
+=== Stratified cross-validation ===
+
+Correctly Classified Instances           5               35.7143 %
+Incorrectly Classified Instances         9               64.2857 %
+Kappa statistic                          0.0079
+Mean absolute error                      0.4501
+Root mean squared error                  0.5381
+Relative absolute error                 97.3503 %
+Root relative squared error            109.5743 %
+Total Number of Instances               14     
+
+
+=== Confusion Matrix ===
+
+ a b c   <-- classified as
+ 3 0 2 | a = cluster_119
+ 3 0 1 | b = cluster_118
+ 2 1 2 | c = cluster_117
+

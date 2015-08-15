@@ -1,0 +1,75 @@
+
+The independent probability of a class
+--------------------------------------
+cluster_119	0.35294117647058826
+cluster_118	0.29411764705882354
+cluster_117	0.35294117647058826
+
+The probability of a word given the class
+-----------------------------------------
+	cluster_119	cluster_118	cluster_117	
+floor_level_servic_provid	0.10679611650485438	0.041390728476821195	0.04293688278231001	
+eee_laptop_big	0.07546337157987641	0.07077814569536425	0.04293688278231001	
+screen_luminesc	0.0441306266548985	0.041390728476821195	0.04293688278231001	
+long_dai	0.0441306266548985	0.041390728476821195	0.0579647917561185	
+standard_room	0.0441306266548985	0.06125827814569538	0.08887934735938174	
+scrambl_egg	0.0441306266548985	0.041390728476821195	0.04293688278231001	
+bmw_seri	0.0441306266548985	0.041390728476821195	0.04293688278231001	
+price_due_excel_locat	0.0441306266548985	0.041390728476821195	0.04293688278231001	
+featur_don	0.0441306266548985	0.041390728476821195	0.04293688278231001	
+verizon_broadband	0.0441306266548985	0.041390728476821195	0.04293688278231001	
+button_side	0.0441306266548985	0.08236754966887418	0.04293688278231001	
+locat_fisherman	0.0441306266548985	0.041390728476821195	0.04293688278231001	
+tune_favorit_radio	0.0441306266548985	0.0827814569536424	0.04293688278231001	
+chemist_yd	0.0441306266548985	0.041390728476821195	0.04293688278231001	
+alert_courteou	0.0441306266548985	0.041390728476821195	0.04293688278231001	
+great_room_great	0.0441306266548985	0.07077814569536425	0.07342206955775009	
+full_price	0.06751985878199471	0.05256622516556292	0.04293688278231001	
+engin_perform	0.0441306266548985	0.041390728476821195	0.04293688278231001	
+engin_perform_lack	0.0441306266548985	0.041390728476821195	0.09274366680978961	
+door_hit	0.0441306266548985	0.041390728476821195	0.04293688278231001	
+
+
+Time taken to build model: 0.02 seconds
+Time taken to test model on training data: 0.02 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances          10               71.4286 %
+Incorrectly Classified Instances         4               28.5714 %
+Kappa statistic                          0.5625
+Mean absolute error                      0.3858
+Root mean squared error                  0.4159
+Relative absolute error                 87.1602 %
+Root relative squared error             88.4438 %
+Total Number of Instances               14     
+
+
+=== Confusion Matrix ===
+
+ a b c   <-- classified as
+ 5 0 0 | a = cluster_119
+ 1 2 1 | b = cluster_118
+ 2 0 3 | c = cluster_117
+
+
+
+=== Stratified cross-validation ===
+
+Correctly Classified Instances           7               50      %
+Incorrectly Classified Instances         7               50      %
+Kappa statistic                          0.2222
+Mean absolute error                      0.4526
+Root mean squared error                  0.4847
+Relative absolute error                 97.8965 %
+Root relative squared error             98.6894 %
+Total Number of Instances               14     
+
+
+=== Confusion Matrix ===
+
+ a b c   <-- classified as
+ 4 0 1 | a = cluster_119
+ 3 0 1 | b = cluster_118
+ 2 0 3 | c = cluster_117
+

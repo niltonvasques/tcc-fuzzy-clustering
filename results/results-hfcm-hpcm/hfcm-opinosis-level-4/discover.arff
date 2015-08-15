@@ -1,0 +1,30 @@
+@RELATION /home/niltonvasques/Documents/ufba/tcc/results/results-hfcm-hpcm/hfcm-opinosis-level-4
+
+@ATTRIBUTE floor_level_servic_provid	NUMERIC
+@ATTRIBUTE eee_laptop_big	NUMERIC
+@ATTRIBUTE screen_luminesc	NUMERIC
+@ATTRIBUTE long_dai	NUMERIC
+@ATTRIBUTE standard_room	NUMERIC
+@ATTRIBUTE scrambl_egg	NUMERIC
+@ATTRIBUTE bmw_seri	NUMERIC
+@ATTRIBUTE price_due_excel_locat	NUMERIC
+@ATTRIBUTE featur_don	NUMERIC
+@ATTRIBUTE verizon_broadband	NUMERIC
+@ATTRIBUTE button_side	NUMERIC
+@ATTRIBUTE locat_fisherman	NUMERIC
+@ATTRIBUTE tune_favorit_radio	NUMERIC
+@ATTRIBUTE chemist_yd	NUMERIC
+@ATTRIBUTE alert_courteou	NUMERIC
+@ATTRIBUTE great_room_great	NUMERIC
+@ATTRIBUTE full_price	NUMERIC
+@ATTRIBUTE engin_perform	NUMERIC
+@ATTRIBUTE engin_perform_lack	NUMERIC
+@ATTRIBUTE door_hit	NUMERIC
+@ATTRIBUTE class 	{cluster_123,cluster_124,cluster_125}
+
+@DATA
+0.0,0.0,0.0,0.0,0.87,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.58,0.0,cluster_125
+0.0,0.0,0.0,0.35,0.1,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.71,0.0,0.0,0.58,0.0,cluster_123
+0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,cluster_123
+0.0,0.0,0.0,0.0,0.48,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.71,0.0,0.0,0.0,0.0,cluster_124
+0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,cluster_124

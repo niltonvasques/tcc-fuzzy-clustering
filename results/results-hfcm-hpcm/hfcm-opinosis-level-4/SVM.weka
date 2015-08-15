@@ -1,0 +1,17 @@
+Zero Weights processed. Default weights will be used
+*
+optimization finished, #iter = 1
+nu = 0.6666666666666666
+obj = -3.9996189453813713, rho = 1.0000110660275823
+nSV = 2, nBSV = 2
+*
+optimization finished, #iter = 1
+nu = 0.6666666666666666
+obj = -3.9996189453813713, rho = 1.0000106174611574
+nSV = 2, nBSV = 2
+*
+optimization finished, #iter = 2
+nu = 1.0
+obj = -7.999713997131039, rho = 7.652890053577721E-5
+nSV = 4, nBSV = 4
+Total nSV = 5

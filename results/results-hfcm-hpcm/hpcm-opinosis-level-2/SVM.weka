@@ -1,0 +1,225 @@
+Zero Weights processed. Default weights will be used
+*
+optimization finished, #iter = 3
+nu = 0.75
+obj = -11.99919934292302, rho = 1.0000044745397645
+nSV = 6, nBSV = 6
+*
+optimization finished, #iter = 3
+nu = 0.75
+obj = -11.999161990455832, rho = 0.9999813237664057
+nSV = 6, nBSV = 6
+*
+optimization finished, #iter = 5
+nu = 1.0
+obj = -19.996343876351602, rho = 0.0013087433035252616
+nSV = 10, nBSV = 10
+Total nSV = 13
+*
+optimization finished, #iter = 4
+nu = 0.8888888888888888
+obj = -15.99929753516335, rho = 1.0
+nSV = 8, nBSV = 8
+*
+optimization finished, #iter = 2
+nu = 0.6666666666666666
+obj = -7.998978158366299, rho = -0.9998505901312456
+nSV = 4, nBSV = 4
+*
+optimization finished, #iter = 3
+nu = 0.5714285714285714
+obj = -7.999568572579927, rho = -0.9999999999960749
+nSV = 5, nBSV = 3
+Total nSV = 11
+*
+optimization finished, #iter = 2
+nu = 0.6666666666666666
+obj = -7.999268727748131, rho = -0.9999813237664057
+nSV = 4, nBSV = 4
+*
+optimization finished, #iter = 4
+nu = 0.8888888888888888
+obj = -15.999671059835237, rho = 1.0
+nSV = 8, nBSV = 8
+*
+optimization finished, #iter = 2
+nu = 0.5714285714285714
+obj = -7.9993060802153195, rho = 1.0000022372698822
+nSV = 4, nBSV = 4
+Total nSV = 10
+*
+optimization finished, #iter = 2
+nu = 0.6666666666666666
+obj = -7.999609509908623, rho = -0.9999813237664057
+nSV = 4, nBSV = 4
+*
+optimization finished, #iter = 4
+nu = 0.8888888888888888
+obj = -15.99929753516335, rho = 1.0
+nSV = 8, nBSV = 8
+*
+optimization finished, #iter = 2
+nu = 0.5714285714285714
+obj = -7.999646862375812, rho = 1.0000044745397645
+nSV = 4, nBSV = 4
+Total nSV = 10
+*
+optimization finished, #iter = 5
+nu = 0.8888888888888888
+obj = -15.999589122860925, rho = -0.9999999999960689
+nSV = 9, nBSV = 7
+*
+optimization finished, #iter = 4
+nu = 0.75
+obj = -11.999199370037196, rho = -0.9999999999960809
+nSV = 7, nBSV = 5
+*
+optimization finished, #iter = 3
+nu = 0.8571428571428571
+obj = -11.998900523185512, rho = -0.9998319138976512
+nSV = 6, nBSV = 6
+Total nSV = 12
+*
+optimization finished, #iter = 4
+nu = 0.75
+obj = -11.999199370037196, rho = -0.9999999999960809
+nSV = 7, nBSV = 5
+*
+optimization finished, #iter = 5
+nu = 0.8888888888888888
+obj = -15.999409592564916, rho = -0.9999999999960689
+nSV = 9, nBSV = 7
+*
+optimization finished, #iter = 3
+nu = 0.8571428571428571
+obj = -11.998907755225446, rho = 0.9998542061512126
+nSV = 6, nBSV = 6
+Total nSV = 12
+*
+optimization finished, #iter = 3
+nu = 0.75
+obj = -11.999161990455832, rho = -0.9999813237664057
+nSV = 6, nBSV = 6
+*
+optimization finished, #iter = 4
+nu = 0.8888888888888888
+obj = -15.996717401023488, rho = -0.9998355299176183
+nSV = 8, nBSV = 8
+*
+optimization finished, #iter = 3
+nu = 0.8571428571428571
+obj = -11.99919934292302, rho = 1.0000044745397645
+nSV = 6, nBSV = 6
+Total nSV = 11
+*
+optimization finished, #iter = 3
+nu = 0.75
+obj = -11.998608935487937, rho = -0.9998505901312456
+nSV = 6, nBSV = 6
+*
+optimization finished, #iter = 4
+nu = 0.8888888888888888
+obj = -15.999409592564916, rho = -0.9998319138976512
+nSV = 8, nBSV = 8
+*
+optimization finished, #iter = 3
+nu = 0.8571428571428571
+obj = -11.99919934292302, rho = 1.0
+nSV = 6, nBSV = 6
+Total nSV = 11
+*
+optimization finished, #iter = 3
+nu = 0.75
+obj = -11.998900523185512, rho = -0.9998505901312456
+nSV = 6, nBSV = 6
+*
+optimization finished, #iter = 4
+nu = 0.8888888888888888
+obj = -15.996455933753168, rho = -0.9998319138976512
+nSV = 8, nBSV = 8
+*
+optimization finished, #iter = 3
+nu = 0.8571428571428571
+obj = -11.99919934292302, rho = 1.0000044745397645
+nSV = 6, nBSV = 6
+Total nSV = 11
+*
+optimization finished, #iter = 4
+nu = 0.8888888888888888
+obj = -15.996717401023488, rho = 0.9998355299176183
+nSV = 8, nBSV = 8
+*
+optimization finished, #iter = 4
+nu = 0.8571428571428571
+obj = -11.999199370037196, rho = -0.9999999999960809
+nSV = 7, nBSV = 5
+*
+optimization finished, #iter = 3
+nu = 0.75
+obj = -11.998608935487937, rho = -0.9998505901312456
+nSV = 6, nBSV = 6
+Total nSV = 12
+*
+optimization finished, #iter = 4
+nu = 0.8888888888888888
+obj = -15.996717401023488, rho = -0.9998355299176183
+nSV = 8, nBSV = 8
+*
+optimization finished, #iter = 3
+nu = 0.75
+obj = -11.999161990455832, rho = -0.9999813237664057
+nSV = 6, nBSV = 6
+*
+optimization finished, #iter = 4
+nu = 0.8571428571428571
+obj = -11.999199370037196, rho = -0.9999999999960809
+nSV = 7, nBSV = 5
+Total nSV = 11
+
+Options: -S 0 -K 1 -D 3 -G 0.0 -R 0.0 -N 0.5 -M 40.0 -C 2.0 -E 0.001 -P 0.1 -seed 1 
+
+LibSVM wrapper, original code by Yasser EL-Manzalawy (= WLSVM)
+
+Time taken to build model: 0.07 seconds
+Time taken to test model on training data: 0.03 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances           6               46.1538 %
+Incorrectly Classified Instances         7               53.8462 %
+Kappa statistic                          0.125 
+Mean absolute error                      0.359 
+Root mean squared error                  0.5991
+Relative absolute error                 82.3529 %
+Root relative squared error            128.5744 %
+Total Number of Instances               13     
+
+
+=== Confusion Matrix ===
+
+ a b c   <-- classified as
+ 0 3 0 | a = cluster_118
+ 0 5 0 | b = cluster_117
+ 0 4 1 | c = cluster_119
+
+
+
+=== Stratified cross-validation ===
+
+Correctly Classified Instances           0                0      %
+Incorrectly Classified Instances        13              100      %
+Kappa statistic                         -0.625 
+Mean absolute error                      0.6667
+Root mean squared error                  0.8165
+Relative absolute error                145.2128 %
+Root relative squared error            165.9311 %
+Total Number of Instances               13     
+
+
+=== Confusion Matrix ===
+
+ a b c   <-- classified as
+ 0 0 3 | a = cluster_118
+ 0 0 5 | b = cluster_117
+ 0 5 0 | c = cluster_119
+

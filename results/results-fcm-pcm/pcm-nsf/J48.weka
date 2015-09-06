@@ -3,51 +3,73 @@ Options: -C 0.25 -M 2
 
 J48 pruned tree
 ------------------
-: cluster_6 (3200.0/244.0)
 
-Number of Leaves  : 	1
+develop <= 0
+|   high <= 0
+|   |   mechan <= 0
+|   |   |   environ <= 0: cluster_7 (2844.0/96.0)
+|   |   |   environ > 0
+|   |   |   |   gener <= 0
+|   |   |   |   |   scienc <= 0: cluster_7 (60.0/2.0)
+|   |   |   |   |   scienc > 0: cluster_8 (2.0)
+|   |   |   |   gener > 0: cluster_8 (2.0)
+|   |   mechan > 0
+|   |   |   effect <= 0: cluster_8 (48.0)
+|   |   |   effect > 0: cluster_7 (2.0)
+|   high > 0
+|   |   time <= 0
+|   |   |   intern <= 0: cluster_8 (70.0/2.0)
+|   |   |   intern > 0
+|   |   |   |   environ <= 0: cluster_8 (4.0)
+|   |   |   |   environ > 0: cluster_7 (2.0)
+|   |   time > 0
+|   |   |   studi <= 0: cluster_8 (4.0)
+|   |   |   studi > 0: cluster_7 (2.0)
+develop > 0: cluster_8 (160.0/10.0)
 
-Size of the tree : 	1
+Number of Leaves  : 	12
+
+Size of the tree : 	23
 
 
-Time taken to build model: 0.32 seconds
-Time taken to test model on training data: 0.22 seconds
+Time taken to build model: 0.55 seconds
+Time taken to test model on training data: 0.08 seconds
 
 === Error on training data ===
 
-Correctly Classified Instances        2956               92.375  %
-Incorrectly Classified Instances       244                7.625  %
-Kappa statistic                          0     
-Mean absolute error                      0.1409
-Root mean squared error                  0.2654
-Relative absolute error                 99.841  %
-Root relative squared error            100      %
+Correctly Classified Instances        3090               96.5625 %
+Incorrectly Classified Instances       110                3.4375 %
+Kappa statistic                          0.816 
+Mean absolute error                      0.0663
+Root mean squared error                  0.182 
+Relative absolute error                 31.9201 %
+Root relative squared error             56.5228 %
 Total Number of Instances             3200     
 
 
 === Confusion Matrix ===
 
     a    b   <-- classified as
- 2956    0 |    a = cluster_6
-  244    0 |    b = cluster_5
+ 2812   12 |    a = cluster_7
+   98  278 |    b = cluster_8
 
 
 
 === Stratified cross-validation ===
 
-Correctly Classified Instances        2956               92.375  %
-Incorrectly Classified Instances       244                7.625  %
-Kappa statistic                          0     
-Mean absolute error                      0.1409
-Root mean squared error                  0.2654
-Relative absolute error                 99.8234 %
-Root relative squared error             99.9999 %
+Correctly Classified Instances        3077               96.1563 %
+Incorrectly Classified Instances       123                3.8438 %
+Kappa statistic                          0.7956
+Mean absolute error                      0.0702
+Root mean squared error                  0.1916
+Relative absolute error                 33.8376 %
+Root relative squared error             59.5109 %
 Total Number of Instances             3200     
 
 
 === Confusion Matrix ===
 
     a    b   <-- classified as
- 2956    0 |    a = cluster_6
-  244    0 |    b = cluster_5
+ 2803   21 |    a = cluster_7
+  102  274 |    b = cluster_8
 

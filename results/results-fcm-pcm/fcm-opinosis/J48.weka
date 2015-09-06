@@ -4,62 +4,58 @@ Options: -C 0.25 -M 2
 J48 pruned tree
 ------------------
 
-price_due_excel_locat <= 0
-|   verizon_broadband <= 0
-|   |   floor_level_servic_provid <= 0
-|   |   |   full_price <= 0
-|   |   |   |   standard_room <= 0: cluster_13 (38.0/19.0)
-|   |   |   |   standard_room > 0: cluster_11 (4.0)
-|   |   |   full_price > 0: cluster_11 (3.0)
-|   |   floor_level_servic_provid > 0: cluster_11 (2.0)
-|   verizon_broadband > 0: cluster_12 (2.0)
-price_due_excel_locat > 0: cluster_12 (2.0)
+room_servic <= 0
+|   speed_limit <= 0
+|   |   ga_mileag <= 0.02: cluster_22 (29.0/8.0)
+|   |   ga_mileag > 0.02: cluster_21 (7.0/1.0)
+|   speed_limit > 0: cluster_20 (2.0)
+room_servic > 0: cluster_20 (13.0)
 
-Number of Leaves  : 	6
+Number of Leaves  : 	4
 
-Size of the tree : 	11
+Size of the tree : 	7
 
 
-Time taken to build model: 0.19 seconds
-Time taken to test model on training data: 0.06 seconds
+Time taken to build model: 0.08 seconds
+Time taken to test model on training data: 0.01 seconds
 
 === Error on training data ===
 
-Correctly Classified Instances          32               62.7451 %
-Incorrectly Classified Instances        19               37.2549 %
-Kappa statistic                          0.4131
-Mean absolute error                      0.3089
-Root mean squared error                  0.393 
-Relative absolute error                 70.9736 %
-Root relative squared error             84.2953 %
+Correctly Classified Instances          42               82.3529 %
+Incorrectly Classified Instances         9               17.6471 %
+Kappa statistic                          0.716 
+Mean absolute error                      0.1874
+Root mean squared error                  0.3061
+Relative absolute error                 43.6352 %
+Root relative squared error             66.1212 %
 Total Number of Instances               51     
 
 
 === Confusion Matrix ===
 
   a  b  c   <-- classified as
- 19  0  0 |  a = cluster_13
-  8  4  0 |  b = cluster_12
- 11  0  9 |  c = cluster_11
+ 21  1  0 |  a = cluster_22
+  5  6  0 |  b = cluster_21
+  3  0 15 |  c = cluster_20
 
 
 
 === Stratified cross-validation ===
 
-Correctly Classified Instances          21               41.1765 %
-Incorrectly Classified Instances        30               58.8235 %
-Kappa statistic                          0.0648
-Mean absolute error                      0.4132
-Root mean squared error                  0.4677
-Relative absolute error                 94.7822 %
-Root relative squared error            100.1686 %
+Correctly Classified Instances          35               68.6275 %
+Incorrectly Classified Instances        16               31.3725 %
+Kappa statistic                          0.4969
+Mean absolute error                      0.2508
+Root mean squared error                  0.4103
+Relative absolute error                 58.2427 %
+Root relative squared error             88.4107 %
 Total Number of Instances               51     
 
 
 === Confusion Matrix ===
 
   a  b  c   <-- classified as
- 18  1  0 |  a = cluster_13
- 12  0  0 |  b = cluster_12
- 17  0  3 |  c = cluster_11
+ 19  3  0 |  a = cluster_22
+  6  5  0 |  b = cluster_21
+  6  1 11 |  c = cluster_20
 

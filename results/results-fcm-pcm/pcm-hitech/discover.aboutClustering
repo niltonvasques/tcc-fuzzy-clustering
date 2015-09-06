@@ -1,25 +1,61 @@
 Number of groups = 2
 Pseudopartition number 0
-Parcial clusterFS = 2.076511956153027E-5
+Parcial clusterFS = 1.3271617143446624E-5
 Pseudopartition number 1
-Parcial clusterFS = 2.5455216952857754E-6
+Parcial clusterFS = 3.593726137144879E-6
 Pseudopartition number 2
-Parcial clusterFS = 1.6969607969857942E-5
+Parcial clusterFS = 6.8595873680007245E-6
 Pseudopartition number 3
-Parcial clusterFS = 2.5306740394270407E-5
+Parcial clusterFS = 2.4156192521252982E-5
 Pseudopartition number 4
-Parcial clusterFS = 1.3397612583977431E-5
-Bigger cluster Fuzzy Silhouette = 2.5306740394270407E-5
+Parcial clusterFS = 6.225833844650002E-6
+Bigger cluster Fuzzy Silhouette = 2.4156192521252982E-5
 Number of groups = 3
 Pseudopartition number 0
-Parcial clusterFS = 2.5922640818442254E-7
+Parcial clusterFS = 6.803105973809401E-5
 Pseudopartition number 1
-Parcial clusterFS = 2.7607030017390145E-6
+Parcial clusterFS = 1.2439532966045355E-5
 Pseudopartition number 2
-Parcial clusterFS = 3.795069234573251E-7
+Parcial clusterFS = 8.76638578477551E-5
 Pseudopartition number 3
-Parcial clusterFS = 1.3942243507998004E-6
+Parcial clusterFS = 6.524845830197067E-6
 Pseudopartition number 4
-Parcial clusterFS = 1.0576425072818178E-6
-Bigger cluster Fuzzy Silhouette = 2.7607030017390145E-6
-Bigger Fuzzy Silhouette =2.5306740394270407E-5
+Parcial clusterFS = 2.590127343457459E-5
+Bigger cluster Fuzzy Silhouette = 8.76638578477551E-5
+Number of groups = 4
+Pseudopartition number 0
+Parcial clusterFS = 6.979740420408583E-6
+Pseudopartition number 1
+Parcial clusterFS = 1.754316428593188E-5
+Pseudopartition number 2
+Parcial clusterFS = 2.900427242580917E-6
+Pseudopartition number 3
+Parcial clusterFS = 1.3262123788885775E-6
+Pseudopartition number 4
+Parcial clusterFS = 2.4693909867537913E-6
+Bigger cluster Fuzzy Silhouette = 1.754316428593188E-5
+Number of groups = 5
+Pseudopartition number 0
+Parcial clusterFS = 9.72610415749389E-5
+Pseudopartition number 1
+Parcial clusterFS = 4.805945015910512E-7
+Pseudopartition number 2
+Parcial clusterFS = 2.989239319853189E-4
+Pseudopartition number 3
+Parcial clusterFS = 0.0016507662751285774
+Pseudopartition number 4
+Parcial clusterFS = 3.436603465481008E-6
+Bigger cluster Fuzzy Silhouette = 0.0016507662751285774
+Number of groups = 6
+Pseudopartition number 0
+Parcial clusterFS = 8.047845504547215E-4
+Pseudopartition number 1
+Parcial clusterFS = 0.0055122432386109105
+Pseudopartition number 2
+Parcial clusterFS = 0.0012690487828186474
+Pseudopartition number 3
+Parcial clusterFS = 3.058051773540665E-4
+Pseudopartition number 4
+Parcial clusterFS = 1.6299581581808413E-4
+Bigger cluster Fuzzy Silhouette = 0.0055122432386109105
+Bigger Fuzzy Silhouette =0.0055122432386109105

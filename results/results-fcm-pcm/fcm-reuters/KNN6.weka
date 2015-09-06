@@ -5,44 +5,68 @@ IB1 instance-based classifier
 using 6 nearest neighbour(s) for classification
 
 
-Time taken to build model: 0.05 seconds
-Time taken to test model on training data: 1.73 seconds
+Time taken to build model: 0.01 seconds
+Time taken to test model on training data: 2.73 seconds
 
 === Error on training data ===
 
-Correctly Classified Instances         830               78.8973 %
-Incorrectly Classified Instances       222               21.1027 %
-Kappa statistic                          0.1941
-Mean absolute error                      0.3149
-Root mean squared error                  0.4004
-Relative absolute error                 88.8388 %
-Root relative squared error             95.1507 %
+Correctly Classified Instances         975               92.6806 %
+Incorrectly Classified Instances        77                7.3194 %
+Kappa statistic                          0.4247
+Mean absolute error                      0.0124
+Root mean squared error                  0.0841
+Relative absolute error                 44.1726 %
+Root relative squared error             72.8221 %
 Total Number of Instances             1052     
 
 
 === Confusion Matrix ===
 
-   a   b   <-- classified as
- 789  21 |   a = cluster_2
- 201  41 |   b = cluster_1
+   a   b   c   d   e   f   g   h   i   j   k   l   m   n   <-- classified as
+  11   0   2   0  40   0   0   0   0   0   0   0   0   0 |   a = cluster_507
+   0   8   0   0   4   0   0   0   0   0   0   0   0   0 |   b = cluster_520
+   0   0   7   0   8   0   0   0   0   0   0   0   0   0 |   c = cluster_514
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0 |   d = cluster_510
+   1   0   0   0 946   0   0   0   0   0   0   0   0   0 |   e = cluster_516
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0 |   f = cluster_512
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0 |   g = cluster_517
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0 |   h = cluster_509
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0 |   i = cluster_519
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0 |   j = cluster_511
+   0   0   0   0  19   0   0   0   0   0   0   0   0   0 |   k = cluster_515
+   0   1   0   0   2   0   0   0   0   0   0   3   0   0 |   l = cluster_508
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0 |   m = cluster_513
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0 |   n = cluster_518
 
 
 
 === Stratified cross-validation ===
 
-Correctly Classified Instances         818               77.7567 %
-Incorrectly Classified Instances       234               22.2433 %
-Kappa statistic                          0.1266
-Mean absolute error                      0.324 
-Root mean squared error                  0.4124
-Relative absolute error                 91.3766 %
-Root relative squared error             97.9959 %
+Correctly Classified Instances         963               91.5399 %
+Incorrectly Classified Instances        89                8.4601 %
+Kappa statistic                          0.3034
+Mean absolute error                      0.0154
+Root mean squared error                  0.1027
+Relative absolute error                 54.7938 %
+Root relative squared error             88.9863 %
 Total Number of Instances             1052     
 
 
 === Confusion Matrix ===
 
-   a   b   <-- classified as
- 790  20 |   a = cluster_2
- 214  28 |   b = cluster_1
+   a   b   c   d   e   f   g   h   i   j   k   l   m   n   <-- classified as
+   5   0   2   0  46   0   0   0   0   0   0   0   0   0 |   a = cluster_507
+   0   8   0   0   4   0   0   0   0   0   0   0   0   0 |   b = cluster_520
+   0   0   4   0  11   0   0   0   0   0   0   0   0   0 |   c = cluster_514
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0 |   d = cluster_510
+   4   0   0   0 943   0   0   0   0   0   0   0   0   0 |   e = cluster_516
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0 |   f = cluster_512
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0 |   g = cluster_517
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0 |   h = cluster_509
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0 |   i = cluster_519
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0 |   j = cluster_511
+   0   0   0   0  19   0   0   0   0   0   0   0   0   0 |   k = cluster_515
+   0   0   0   0   3   0   0   0   0   0   0   3   0   0 |   l = cluster_508
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0 |   m = cluster_513
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0 |   n = cluster_518
 

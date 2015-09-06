@@ -4,62 +4,74 @@ Options: -C 0.25 -M 2
 J48 pruned tree
 ------------------
 
-price_due_excel_locat <= 0
-|   verizon_broadband <= 0
-|   |   floor_level_servic_provid <= 0
-|   |   |   full_price <= 0
-|   |   |   |   standard_room <= 0: cluster_11 (38.0/19.0)
-|   |   |   |   standard_room > 0: cluster_12 (4.0)
-|   |   |   full_price > 0: cluster_12 (3.0)
-|   |   floor_level_servic_provid > 0: cluster_12 (2.0)
-|   verizon_broadband > 0: cluster_13 (2.0)
-price_due_excel_locat > 0: cluster_13 (2.0)
+room_servic <= 0
+|   room_clean <= 0
+|   |   servic_great <= 0.06
+|   |   |   locat_great <= 0
+|   |   |   |   great_price <= 0.12
+|   |   |   |   |   hotel_clean <= 0
+|   |   |   |   |   |   servic_room <= 0.19
+|   |   |   |   |   |   |   recommend_hotel <= 0
+|   |   |   |   |   |   |   |   nice_touch <= 0
+|   |   |   |   |   |   |   |   |   room_larg <= 0
+|   |   |   |   |   |   |   |   |   |   good_servic <= 0: cluster_25 (10.0/4.0)
+|   |   |   |   |   |   |   |   |   |   good_servic > 0: cluster_23 (2.0)
+|   |   |   |   |   |   |   |   |   room_larg > 0: cluster_25 (3.0)
+|   |   |   |   |   |   |   |   nice_touch > 0: cluster_23 (2.0)
+|   |   |   |   |   |   |   recommend_hotel > 0: cluster_25 (2.0)
+|   |   |   |   |   |   servic_room > 0.19: cluster_24 (4.0/1.0)
+|   |   |   |   |   hotel_clean > 0: cluster_24 (3.0)
+|   |   |   |   great_price > 0.12: cluster_24 (2.0)
+|   |   |   locat_great > 0: cluster_24 (5.0)
+|   |   servic_great > 0.06: cluster_25 (3.0)
+|   room_clean > 0: cluster_23 (2.0)
+room_servic > 0: cluster_23 (13.0)
 
-Number of Leaves  : 	6
+Number of Leaves  : 	12
 
-Size of the tree : 	11
+Size of the tree : 	23
 
 
-Time taken to build model: 0.19 seconds
-Time taken to test model on training data: 0.06 seconds
+Time taken to build model: 0.11 seconds
+Time taken to test model on training data: 0.02 seconds
 
 === Error on training data ===
 
-Correctly Classified Instances          32               62.7451 %
-Incorrectly Classified Instances        19               37.2549 %
-Kappa statistic                          0.4131
-Mean absolute error                      0.3089
-Root mean squared error                  0.393 
-Relative absolute error                 70.9736 %
-Root relative squared error             84.2953 %
+Correctly Classified Instances          46               90.1961 %
+Incorrectly Classified Instances         5                9.8039 %
+Kappa statistic                          0.8518
+Mean absolute error                      0.0928
+Root mean squared error                  0.2154
+Relative absolute error                 21.3237 %
+Root relative squared error             46.2047 %
 Total Number of Instances               51     
 
 
 === Confusion Matrix ===
 
   a  b  c   <-- classified as
- 19  0  0 |  a = cluster_11
-  8  4  0 |  b = cluster_13
- 11  0  9 |  c = cluster_12
+ 13  0  2 |  a = cluster_24
+  1 19  2 |  b = cluster_23
+  0  0 14 |  c = cluster_25
 
 
 
 === Stratified cross-validation ===
 
-Correctly Classified Instances          21               41.1765 %
-Incorrectly Classified Instances        30               58.8235 %
-Kappa statistic                          0.0648
-Mean absolute error                      0.4132
-Root mean squared error                  0.4677
-Relative absolute error                 94.7822 %
-Root relative squared error            100.1686 %
+Correctly Classified Instances          28               54.902  %
+Incorrectly Classified Instances        23               45.098  %
+Kappa statistic                          0.3224
+Mean absolute error                      0.3118
+Root mean squared error                  0.4778
+Relative absolute error                 71.3473 %
+Root relative squared error            102.0687 %
 Total Number of Instances               51     
 
 
 === Confusion Matrix ===
 
   a  b  c   <-- classified as
- 18  1  0 |  a = cluster_11
- 12  0  0 |  b = cluster_13
- 17  0  3 |  c = cluster_12
+  8  3  4 |  a = cluster_24
+  1 12  9 |  b = cluster_23
+  3  3  8 |  c = cluster_25
 

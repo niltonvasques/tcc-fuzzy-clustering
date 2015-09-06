@@ -5,44 +5,44 @@ IB1 instance-based classifier
 using 7 nearest neighbour(s) for classification
 
 
-Time taken to build model: 0.06 seconds
-Time taken to test model on training data: 12.57 seconds
+Time taken to build model: 0.02 seconds
+Time taken to test model on training data: 3.09 seconds
 
 === Error on training data ===
 
-Correctly Classified Instances        2956               92.375  %
-Incorrectly Classified Instances       244                7.625  %
-Kappa statistic                          0     
-Mean absolute error                      0.1409
-Root mean squared error                  0.2652
-Relative absolute error                 99.8641 %
-Root relative squared error             99.9366 %
+Correctly Classified Instances        3000               93.75   %
+Incorrectly Classified Instances       200                6.25   %
+Kappa statistic                          0.6219
+Mean absolute error                      0.0871
+Root mean squared error                  0.2226
+Relative absolute error                 41.9458 %
+Root relative squared error             69.1151 %
 Total Number of Instances             3200     
 
 
 === Confusion Matrix ===
 
     a    b   <-- classified as
- 2956    0 |    a = cluster_6
-  244    0 |    b = cluster_5
+ 2812   12 |    a = cluster_7
+  188  188 |    b = cluster_8
 
 
 
 === Stratified cross-validation ===
 
-Correctly Classified Instances        2956               92.375  %
-Incorrectly Classified Instances       244                7.625  %
-Kappa statistic                          0     
-Mean absolute error                      0.1412
-Root mean squared error                  0.2653
-Relative absolute error                100.0874 %
-Root relative squared error             99.9555 %
+Correctly Classified Instances        2986               93.3125 %
+Incorrectly Classified Instances       214                6.6875 %
+Kappa statistic                          0.5871
+Mean absolute error                      0.0939
+Root mean squared error                  0.2363
+Relative absolute error                 45.2379 %
+Root relative squared error             73.3691 %
 Total Number of Instances             3200     
 
 
 === Confusion Matrix ===
 
     a    b   <-- classified as
- 2956    0 |    a = cluster_6
-  244    0 |    b = cluster_5
+ 2812   12 |    a = cluster_7
+  202  174 |    b = cluster_8
 

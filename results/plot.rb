@@ -53,22 +53,31 @@ end
 #puts "PCM\t #{pcm.values.map{|v| v+"\t"}.join}"
 
 File.open("#{base}.dat", 'w') do |file|
-  file.write "Title #{clusters.keys.map{ |k| k.upcase+" "}.join}\n"
+  title = "Title"
+  clusters.keys.sort.each do |cluster|
+    title += " #{cluster.upcase}"
+  end
+  title += "\n"
+  file.write title 
+  
   classifiers.uniq.each do |c|
     file.write "#{c}"
-    clusters.keys.each do |cluster|
+    clusters.keys.sort.each do |cluster|
       file.write " #{clusters[cluster][c]}"
     end
     file.write "\n"
   end
 end
 #system( "./gplot.sh #{base}")
+#FCM = "#99ffff"; PCM = "#0072d5"; HEFCM = "#4672d5"; HEFSFCM = "#ff71d5"; HFCM = "#99ffff"; HPCM = "#0072d5";
+#, '' u 4 ti col fc rgb HEFCM, '' u 5 ti col fc rgb HEFSFCM, '' u 6 ti col fc rgb HFCM, '' u 7 ti col fc rgb HPCM
+#plot '#{base}.dat' using 2:xtic(1) ti "HFCM" linecolor rgb "#AAAAAA", '' u 3 ti "HPCM" linecolor rgb "#333333"
 %x( 
 gnuplot <<- EOF
 set title "#{base} base"
-FCM = "#99ffff"; PCM = "#0072d5"; HEFCM = "#4672d5"; HEFSFCM = "#ff71d5";
+HFCM = "#aaaaaa"; HPCM = "#333333";
 set auto x
-set yrange [0:100]
+set yrange [0:120]
 set style data histogram
 set style histogram cluster gap 1
 set style fill solid border -1
@@ -77,8 +86,8 @@ set xtic scale 0
 # 2, 3, 4, 5 are the indexes of the columns; 'fc' stands for 'fillcolor'
 set term png
 set output "#{base}.png"
-plot '#{base}.dat' using 2:xtic(1) ti col fc rgb FCM, '' u 3 ti col fc rgb PCM, '' u 4 ti col fc rgb HEFCM, '' u 5 ti col fc rgb HEFSFCM
+plot '#{base}.dat' using 2:xtic(1) ti col linecolor rgb "#AAAAAA", '' u 3 ti col linecolor rgb "#333333"
 EOF
 )
-system( "eog #{base}.png" )
+#system( "eog #{base}.png" )
 

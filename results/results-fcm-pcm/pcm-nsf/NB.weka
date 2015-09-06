@@ -1,170 +1,290 @@
 
 Naive Bayes Classifier
 
-                        Class
-Attribute           cluster_6 cluster_5
-                       (0.92)    (0.08)
-========================================
-sedimentari
-  mean                  0.0005         0
-  std. dev.             0.1183    0.1183
-  weight sum              2956       244
-  precision               0.71      0.71
+                   Class
+Attribute      cluster_7 cluster_8
+                  (0.88)    (0.12)
+===================================
+gener
+  mean             0.0029    0.0041
+  std. dev.        0.0183    0.0208
+  weight sum         2824       376
+  precision          0.11      0.11
 
-tile
-  mean                  0.0005         0
-  std. dev.             0.1183    0.1183
-  weight sum              2956       244
-  precision               0.71      0.71
+scale
+  mean             0.0029    0.0023
+  std. dev.        0.0183    0.0183
+  weight sum         2824       376
+  precision          0.11      0.11
 
-wetland
-  mean                  0.0009         0
-  std. dev.             0.0583    0.0583
-  weight sum              2956       244
-  precision               0.35      0.35
+process
+  mean             0.0027     0.002
+  std. dev.        0.0179    0.0156
+  weight sum         2824       376
+  precision        0.0933    0.0933
 
-mediat
-  mean                  0.0009         0
-  std. dev.             0.0583    0.0583
-  weight sum              2956       244
-  precision               0.35      0.35
+scienc
+  mean             0.0031    0.0017
+  std. dev.        0.0183    0.0175
+  weight sum         2824       376
+  precision         0.105     0.105
 
-fluidflow
-  mean                  0.0005         0
-  std. dev.             0.1183    0.1183
-  weight sum              2956       244
-  precision               0.71      0.71
+effect
+  mean             0.0029    0.0057
+  std. dev.        0.0162     0.022
+  weight sum         2824       376
+  precision          0.09      0.09
 
-reusabl
-  mean                  0.0005         0
-  std. dev.             0.1183    0.1183
-  weight sum              2956       244
-  precision               0.71      0.71
+network
+  mean             0.0047    0.0048
+  std. dev.        0.0174    0.0178
+  weight sum         2824       376
+  precision          0.07      0.07
 
-hunt
-  mean                  0.0005         0
-  std. dev.             0.1183    0.1183
-  weight sum              2956       244
-  precision               0.71      0.71
+design
+  mean             0.0026    0.0023
+  std. dev.        0.0183    0.0183
+  weight sum         2824       376
+  precision          0.11      0.11
 
-pandora
-  mean                  0.0005         0
-  std. dev.             0.1183    0.1183
-  weight sum              2956       244
-  precision               0.71      0.71
+control
+  mean             0.0039         0
+  std. dev.        0.0193    0.0167
+  weight sum         2824       376
+  precision           0.1       0.1
 
-ga
-  mean                  0.0008         0
-  std. dev.             0.0683    0.0683
-  weight sum              2956       244
-  precision               0.41      0.41
+manag
+  mean             0.0023    0.0038
+  std. dev.          0.02    0.0211
+  weight sum         2824       376
+  precision          0.12      0.12
 
-subcellular
-  mean                       0    0.0058
-  std. dev.             0.1183    0.1183
-  weight sum              2956       244
-  precision               0.71      0.71
+studi
+  mean             0.0048    0.0045
+  std. dev.        0.0176    0.0171
+  weight sum         2824       376
+  precision          0.07      0.07
 
-pertub
-  mean                  0.0005         0
-  std. dev.             0.1183    0.1183
-  weight sum              2956       244
-  precision               0.71      0.71
+theori
+  mean              0.003     0.003
+  std. dev.         0.017    0.0174
+  weight sum         2824       376
+  precision          0.07      0.07
 
-plume
-  mean                  0.0007         0
-  std. dev.             0.0833    0.0833
-  weight sum              2956       244
-  precision                0.5       0.5
+time
+  mean             0.0028    0.0041
+  std. dev.        0.0183    0.0208
+  weight sum         2824       376
+  precision          0.11      0.11
 
-chemic
-  mean                  0.0012         0
-  std. dev.             0.0483    0.0483
-  weight sum              2956       244
-  precision               0.29      0.29
+commun
+  mean             0.0035    0.0038
+  std. dev.        0.0177    0.0182
+  weight sum         2824       376
+  precision          0.09      0.09
 
-assembl
-  mean                  0.0009         0
-  std. dev.             0.0583    0.0583
-  weight sum              2956       244
-  precision               0.35      0.35
+confer
+  mean              0.003    0.0023
+  std. dev.        0.0183    0.0183
+  weight sum         2824       376
+  precision          0.11      0.11
 
-jaya
-  mean                  0.0005         0
-  std. dev.             0.1183    0.1183
-  weight sum              2956       244
-  precision               0.71      0.71
+algorithm
+  mean             0.0033    0.0029
+  std. dev.        0.0178    0.0158
+  weight sum         2824       376
+  precision          0.09      0.09
 
-philippin
-  mean                  0.0007         0
-  std. dev.             0.0833    0.0833
-  weight sum              2956       244
-  precision                0.5       0.5
+polit
+  mean             0.0041    0.0017
+  std. dev.        0.0177    0.0133
+  weight sum         2824       376
+  precision          0.08      0.08
 
-reaction
-  mean                  0.0012         0
-  std. dev.             0.0483    0.0483
-  weight sum              2956       244
-  precision               0.29      0.29
+data
+  mean             0.0048    0.0017
+  std. dev.        0.0189    0.0133
+  weight sum         2824       376
+  precision          0.08      0.08
 
-satur
-  mean                  0.0005         0
-  std. dev.             0.1183    0.1183
-  weight sum              2956       244
-  precision               0.71      0.71
+comput
+  mean             0.0037    0.0014
+  std. dev.        0.0177    0.0142
+  weight sum         2824       376
+  precision         0.085     0.085
 
-characterizatiion
-  mean                  0.0005         0
-  std. dev.             0.1183    0.1183
-  weight sum              2956       244
-  precision               0.71      0.71
+analysi
+  mean             0.0047    0.0038
+  std. dev.        0.0167    0.0159
+  weight sum         2824       376
+  precision          0.06      0.06
 
-immunolog
-  mean                  0.0005         0
-  std. dev.             0.1183    0.1183
-  weight sum              2956       244
-  precision               0.71      0.71
+environ
+  mean             0.0023    0.0047
+  std. dev.        0.0183    0.0222
+  weight sum         2824       376
+  precision          0.11      0.11
+
+system
+  mean                  0         0
+  std. dev.        0.0017    0.0017
+  weight sum         2824       376
+  precision          0.01      0.01
+
+approach
+  mean             0.0028    0.0018
+  std. dev.        0.0192    0.0192
+  weight sum         2824       376
+  precision         0.115     0.115
+
+gravit
+  mean             0.0025    0.0051
+  std. dev.          0.02    0.0242
+  weight sum         2824       376
+  precision          0.12      0.12
+
+mechan
+  mean             0.0001    0.0198
+  std. dev.          0.02    0.0478
+  weight sum         2824       376
+  precision          0.12      0.12
+
+model
+  mean                  0         0
+  std. dev.        0.0017    0.0017
+  weight sum         2824       376
+  precision          0.01      0.01
+
+problem
+  mean             0.0037    0.0038
+  std. dev.        0.0179    0.0182
+  weight sum         2824       376
+  precision          0.09      0.09
+
+experi
+  mean             0.0027         0
+  std. dev.          0.02      0.02
+  weight sum         2824       376
+  precision          0.12      0.12
+
+base
+  mean              0.004    0.0005
+  std. dev.        0.0187     0.015
+  weight sum         2824       376
+  precision          0.09      0.09
+
+dynamic
+  mean             0.0035    0.0063
+  std. dev.        0.0165    0.0213
+  weight sum         2824       376
+  precision          0.07      0.07
+
+interact
+  mean             0.0026    0.0048
+  std. dev.        0.0167    0.0213
+  weight sum         2824       376
+  precision           0.1       0.1
+
+develop
+  mean             0.0003    0.0323
+  std. dev.        0.0133    0.0401
+  weight sum         2824       376
+  precision          0.08      0.08
+
+intern
+  mean             0.0027    0.0043
+  std. dev.        0.0167    0.0202
+  weight sum         2824       376
+  precision           0.1       0.1
+
+complex
+  mean             0.0026    0.0038
+  std. dev.          0.02    0.0211
+  weight sum         2824       376
+  precision          0.12      0.12
+
+integr
+  mean             0.0028    0.0013
+  std. dev.          0.02      0.02
+  weight sum         2824       376
+  precision          0.12      0.12
+
+statist
+  mean             0.0024    0.0031
+  std. dev.        0.0192    0.0192
+  weight sum         2824       376
+  precision         0.115     0.115
+
+program
+  mean              0.003    0.0035
+  std. dev.        0.0169     0.018
+  weight sum         2824       376
+  precision         0.095     0.095
+
+high
+  mean             0.0002    0.0229
+  std. dev.        0.0167     0.042
+  weight sum         2824       376
+  precision           0.1       0.1
+
+applic
+  mean             0.0042    0.0021
+  std. dev.        0.0179    0.0133
+  weight sum         2824       376
+  precision          0.08      0.08
+
+structur
+  mean             0.0036    0.0034
+  std. dev.        0.0166    0.0161
+  weight sum         2824       376
+  precision          0.08      0.08
+
+method
+  mean              0.003     0.003
+  std. dev.        0.0171    0.0167
+  weight sum         2824       376
+  precision         0.095     0.095
 
 
 
-Time taken to build model: 0.35 seconds
-Time taken to test model on training data: 0.5 seconds
+Time taken to build model: 0.1 seconds
+Time taken to test model on training data: 0.25 seconds
 
 === Error on training data ===
 
-Correctly Classified Instances        2956               92.375  %
-Incorrectly Classified Instances       244                7.625  %
-Kappa statistic                          0     
-Mean absolute error                      0.141 
-Root mean squared error                  0.2653
-Relative absolute error                 99.9347 %
-Root relative squared error             99.9812 %
+Correctly Classified Instances        3043               95.0938 %
+Incorrectly Classified Instances       157                4.9063 %
+Kappa statistic                          0.7474
+Mean absolute error                      0.0879
+Root mean squared error                  0.2108
+Relative absolute error                 42.3336 %
+Root relative squared error             65.4504 %
 Total Number of Instances             3200     
 
 
 === Confusion Matrix ===
 
     a    b   <-- classified as
- 2956    0 |    a = cluster_6
-  244    0 |    b = cluster_5
+ 2773   51 |    a = cluster_7
+  106  270 |    b = cluster_8
 
 
 
 === Stratified cross-validation ===
 
-Correctly Classified Instances        2956               92.375  %
-Incorrectly Classified Instances       244                7.625  %
-Kappa statistic                          0     
-Mean absolute error                      0.141 
-Root mean squared error                  0.2654
-Relative absolute error                 99.9481 %
-Root relative squared error             99.9873 %
+Correctly Classified Instances        3039               94.9688 %
+Incorrectly Classified Instances       161                5.0313 %
+Kappa statistic                          0.7416
+Mean absolute error                      0.0922
+Root mean squared error                  0.2181
+Relative absolute error                 44.3977 %
+Root relative squared error             67.7316 %
 Total Number of Instances             3200     
 
 
 === Confusion Matrix ===
 
     a    b   <-- classified as
- 2956    0 |    a = cluster_6
-  244    0 |    b = cluster_5
+ 2770   54 |    a = cluster_7
+  107  269 |    b = cluster_8
 

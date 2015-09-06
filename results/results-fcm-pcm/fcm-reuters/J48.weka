@@ -4,58 +4,146 @@ Options: -C 0.25 -M 2
 J48 pruned tree
 ------------------
 
-chemic <= 0: cluster_2 (1011.0/223.0)
-chemic > 0
-|   chemic <= 0.12
-|   |   philippin <= 0
-|   |   |   quot <= 0: cluster_1 (25.0/9.0)
-|   |   |   quot > 0: cluster_2 (9.0/1.0)
-|   |   philippin > 0: cluster_1 (2.0)
-|   chemic > 0.12: cluster_2 (5.0)
+parliament <= 0
+|   januari <= 0.11
+|   |   monei <= 0.2
+|   |   |   balanc <= 0.1
+|   |   |   |   cavac <= 0
+|   |   |   |   |   main <= 0.04
+|   |   |   |   |   |   trade <= 0.05
+|   |   |   |   |   |   |   clo <= 0.09
+|   |   |   |   |   |   |   |   agr <= 0.12
+|   |   |   |   |   |   |   |   |   unit <= 0.12
+|   |   |   |   |   |   |   |   |   |   consum <= 0
+|   |   |   |   |   |   |   |   |   |   |   growth <= 0.03
+|   |   |   |   |   |   |   |   |   |   |   |   mondai <= 0: cluster_516 (801.0/26.0)
+|   |   |   |   |   |   |   |   |   |   |   |   mondai > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   chang <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   estimat <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   work <= 0: cluster_516 (16.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   work > 0: cluster_507 (3.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   estimat > 0: cluster_515 (3.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   chang > 0: cluster_507 (3.0)
+|   |   |   |   |   |   |   |   |   |   |   growth > 0.03
+|   |   |   |   |   |   |   |   |   |   |   |   accord <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   reserv <= 0: cluster_516 (18.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   reserv > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   meal <= 0: cluster_507 (5.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   meal > 0: cluster_516 (11.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   accord > 0: cluster_507 (2.0)
+|   |   |   |   |   |   |   |   |   |   consum > 0
+|   |   |   |   |   |   |   |   |   |   |   american <= 0.05
+|   |   |   |   |   |   |   |   |   |   |   |   intern <= 0.03
+|   |   |   |   |   |   |   |   |   |   |   |   |   fre <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   offici <= 0: cluster_516 (50.0/2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   offici > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   product <= 0: cluster_520 (7.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   product > 0: cluster_516 (8.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   fre > 0: cluster_520 (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   intern > 0.03: cluster_520 (2.0)
+|   |   |   |   |   |   |   |   |   |   |   american > 0.05: cluster_507 (2.0)
+|   |   |   |   |   |   |   |   |   unit > 0.12
+|   |   |   |   |   |   |   |   |   |   ago <= 0: cluster_516 (12.0/1.0)
+|   |   |   |   |   |   |   |   |   |   ago > 0: cluster_507 (4.0/1.0)
+|   |   |   |   |   |   |   |   agr > 0.12
+|   |   |   |   |   |   |   |   |   reduc <= 0: cluster_516 (4.0)
+|   |   |   |   |   |   |   |   |   reduc > 0: cluster_507 (3.0)
+|   |   |   |   |   |   |   clo > 0.09
+|   |   |   |   |   |   |   |   prev <= 0: cluster_507 (3.0)
+|   |   |   |   |   |   |   |   prev > 0: cluster_516 (4.0)
+|   |   |   |   |   |   trade > 0.05
+|   |   |   |   |   |   |   gulf <= 0
+|   |   |   |   |   |   |   |   septemb <= 0: cluster_516 (18.0/1.0)
+|   |   |   |   |   |   |   |   septemb > 0: cluster_507 (3.0/1.0)
+|   |   |   |   |   |   |   gulf > 0: cluster_507 (6.0)
+|   |   |   |   |   main > 0.04
+|   |   |   |   |   |   sal <= 0: cluster_516 (4.0)
+|   |   |   |   |   |   sal > 0: cluster_507 (4.0)
+|   |   |   |   cavac > 0
+|   |   |   |   |   invest <= 0: cluster_507 (5.0/1.0)
+|   |   |   |   |   invest > 0: cluster_516 (3.0)
+|   |   |   balanc > 0.1
+|   |   |   |   gross <= 0
+|   |   |   |   |   earli <= 0: cluster_516 (7.0)
+|   |   |   |   |   earli > 0: cluster_515 (3.0)
+|   |   |   |   gross > 0: cluster_514 (2.0)
+|   |   monei > 0.2
+|   |   |   incr <= 0: cluster_516 (5.0/1.0)
+|   |   |   incr > 0: cluster_508 (3.0)
+|   januari > 0.11
+|   |   support <= 0: cluster_516 (5.0)
+|   |   support > 0: cluster_514 (4.0)
+parliament > 0
+|   reduc <= 0: cluster_516 (10.0)
+|   reduc > 0: cluster_514 (7.0)
 
-Number of Leaves  : 	5
+Number of Leaves  : 	37
 
-Size of the tree : 	9
+Size of the tree : 	73
 
 
-Time taken to build model: 0.41 seconds
-Time taken to test model on training data: 0.08 seconds
+Time taken to build model: 0.91 seconds
+Time taken to test model on training data: 0.12 seconds
 
 === Error on training data ===
 
-Correctly Classified Instances         819               77.8517 %
-Incorrectly Classified Instances       233               22.1483 %
-Kappa statistic                          0.0919
-Mean absolute error                      0.3431
-Root mean squared error                  0.4142
-Relative absolute error                 96.7742 %
-Root relative squared error             98.4122 %
+Correctly Classified Instances        1015               96.4829 %
+Incorrectly Classified Instances        37                3.5171 %
+Kappa statistic                          0.7834
+Mean absolute error                      0.0094
+Root mean squared error                  0.0684
+Relative absolute error                 33.4025 %
+Root relative squared error             59.2661 %
 Total Number of Instances             1052     
 
 
 === Confusion Matrix ===
 
-   a   b   <-- classified as
- 801   9 |   a = cluster_2
- 224  18 |   b = cluster_1
+   a   b   c   d   e   f   g   h   i   j   k   l   m   n   <-- classified as
+  39   0   0   0  14   0   0   0   0   0   0   0   0   0 |   a = cluster_507
+   0  11   0   0   1   0   0   0   0   0   0   0   0   0 |   b = cluster_520
+   1   0  13   0   1   0   0   0   0   0   0   0   0   0 |   c = cluster_514
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0 |   d = cluster_510
+   2   0   0   0 944   0   0   0   0   0   1   0   0   0 |   e = cluster_516
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0 |   f = cluster_512
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0 |   g = cluster_517
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0 |   h = cluster_509
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0 |   i = cluster_519
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0 |   j = cluster_511
+   0   0   0   0  14   0   0   0   0   0   5   0   0   0 |   k = cluster_515
+   1   0   0   0   2   0   0   0   0   0   0   3   0   0 |   l = cluster_508
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0 |   m = cluster_513
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0 |   n = cluster_518
 
 
 
 === Stratified cross-validation ===
 
-Correctly Classified Instances         815               77.4715 %
-Incorrectly Classified Instances       237               22.5285 %
-Kappa statistic                          0.0802
-Mean absolute error                      0.3463
-Root mean squared error                  0.4177
-Relative absolute error                 97.6861 %
-Root relative squared error             99.243  %
+Correctly Classified Instances         955               90.7795 %
+Incorrectly Classified Instances        97                9.2205 %
+Kappa statistic                          0.3648
+Mean absolute error                      0.0182
+Root mean squared error                  0.1116
+Relative absolute error                 64.6053 %
+Root relative squared error             96.6525 %
 Total Number of Instances             1052     
 
 
 === Confusion Matrix ===
 
-   a   b   <-- classified as
- 798  12 |   a = cluster_2
- 225  17 |   b = cluster_1
+   a   b   c   d   e   f   g   h   i   j   k   l   m   n   <-- classified as
+  12   0   1   0  40   0   0   0   0   0   0   0   0   0 |   a = cluster_507
+   0   3   0   0   9   0   0   0   0   0   0   0   0   0 |   b = cluster_520
+   2   0   9   0   4   0   0   0   0   0   0   0   0   0 |   c = cluster_514
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0 |   d = cluster_510
+  15   2   3   0 925   0   0   0   0   0   2   0   0   0 |   e = cluster_516
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0 |   f = cluster_512
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0 |   g = cluster_517
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0 |   h = cluster_509
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0 |   i = cluster_519
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0 |   j = cluster_511
+   0   0   0   0  16   0   0   0   0   0   3   0   0   0 |   k = cluster_515
+   0   0   0   0   3   0   0   0   0   0   0   3   0   0 |   l = cluster_508
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0 |   m = cluster_513
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0 |   n = cluster_518
 

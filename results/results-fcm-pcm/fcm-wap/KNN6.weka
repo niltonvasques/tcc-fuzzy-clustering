@@ -5,46 +5,62 @@ IB1 instance-based classifier
 using 6 nearest neighbour(s) for classification
 
 
-Time taken to build model: 0.05 seconds
-Time taken to test model on training data: 3.32 seconds
+Time taken to build model: 0.02 seconds
+Time taken to test model on training data: 4.89 seconds
 
 === Error on training data ===
 
-Correctly Classified Instances         646               41.4103 %
-Incorrectly Classified Instances       914               58.5897 %
-Kappa statistic                          0.0296
-Mean absolute error                      0.4355
-Root mean squared error                  0.4663
-Relative absolute error                 99.1617 %
-Root relative squared error             99.5075 %
+Correctly Classified Instances        1118               71.6667 %
+Incorrectly Classified Instances       442               28.3333 %
+Kappa statistic                          0.4496
+Mean absolute error                      0.0587
+Root mean squared error                  0.1702
+Relative absolute error                 69.5404 %
+Root relative squared error             83.1227 %
 Total Number of Instances             1560     
 
 
 === Confusion Matrix ===
 
-   a   b   c   <-- classified as
-  27  11 432 |   a = cluster_21
-  23  31 403 |   b = cluster_20
-  25  20 588 |   c = cluster_22
+   a   b   c   d   e   f   g   h   i   j   k   <-- classified as
+ 492   0   0   0   0   0  71   0   0   0   0 |   a = cluster_320
+   0   0   0   0   0   0   0   0   0   0   0 |   b = cluster_318
+   0   0   0   0   0   0   0   0   0   0   0 |   c = cluster_324
+   0   0   0   0   0   0   0   0   0   0   0 |   d = cluster_319
+   0   0   0   0   0   0   0   0   0   0   0 |   e = cluster_325
+   0   0   0   0   0   0   0   0   0   0   0 |   f = cluster_321
+ 371   0   0   0   0   0 626   0   0   0   0 |   g = cluster_323
+   0   0   0   0   0   0   0   0   0   0   0 |   h = cluster_317
+   0   0   0   0   0   0   0   0   0   0   0 |   i = cluster_316
+   0   0   0   0   0   0   0   0   0   0   0 |   j = cluster_315
+   0   0   0   0   0   0   0   0   0   0   0 |   k = cluster_322
 
 
 
 === Stratified cross-validation ===
 
-Correctly Classified Instances         629               40.3205 %
-Incorrectly Classified Instances       931               59.6795 %
-Kappa statistic                          0.0079
-Mean absolute error                      0.4383
-Root mean squared error                  0.4693
-Relative absolute error                 99.795  %
-Root relative squared error            100.1419 %
+Correctly Classified Instances         987               63.2692 %
+Incorrectly Classified Instances       573               36.7308 %
+Kappa statistic                          0.3017
+Mean absolute error                      0.0721
+Root mean squared error                  0.2024
+Relative absolute error                 85.309  %
+Root relative squared error             98.8304 %
 Total Number of Instances             1560     
 
 
 === Confusion Matrix ===
 
-   a   b   c   <-- classified as
-   7  16 447 |   a = cluster_21
-  14  28 415 |   b = cluster_20
-  14  25 594 |   c = cluster_22
+   a   b   c   d   e   f   g   h   i   j   k   <-- classified as
+ 458   0   0   0   0   0 105   0   0   0   0 |   a = cluster_320
+   0   0   0   0   0   0   0   0   0   0   0 |   b = cluster_318
+   0   0   0   0   0   0   0   0   0   0   0 |   c = cluster_324
+   0   0   0   0   0   0   0   0   0   0   0 |   d = cluster_319
+   0   0   0   0   0   0   0   0   0   0   0 |   e = cluster_325
+   0   0   0   0   0   0   0   0   0   0   0 |   f = cluster_321
+ 468   0   0   0   0   0 529   0   0   0   0 |   g = cluster_323
+   0   0   0   0   0   0   0   0   0   0   0 |   h = cluster_317
+   0   0   0   0   0   0   0   0   0   0   0 |   i = cluster_316
+   0   0   0   0   0   0   0   0   0   0   0 |   j = cluster_315
+   0   0   0   0   0   0   0   0   0   0   0 |   k = cluster_322
 

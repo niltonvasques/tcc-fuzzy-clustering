@@ -86,7 +86,7 @@ set xtic scale 0
 # 2, 3, 4, 5 are the indexes of the columns; 'fc' stands for 'fillcolor'
 set term png
 set output "#{base}.png"
-plot '#{base}.dat' using 2:xtic(1) ti col linecolor rgb "#AAAAAA", '' u 3 ti col linecolor rgb "#333333"
+plot '#{base}.dat' using 2:xtic(1) ti col linecolor rgb "#AAAAAA", '' u 3 ti col linecolor rgb "#333333", '' u 4 ti col linecolor rgb "#FFFFFF", '' u 5 ti col linecolor rgb "#000000"
 EOF
 )
 #system( "eog #{base}.png" )
